@@ -1,0 +1,317 @@
+{
+  "flame_sha256": "e7f4f6ac7aa97045b3989893386aa94dc5245ded7105bbbf44116bfdf801a050",
+  "device": "cuda",
+  "checkpoints": {
+    "B": {
+      "path": "experiments\\provisional_v1\\runs\\B_seed13\\best",
+      "sha256": "a18807a881ea8ef0f1988d3637c104be8c12bcadff4f2904b4a9f913845daed3",
+      "seed": 13,
+      "lambda_value": 0.0,
+      "classification_threshold": 0.45
+    },
+    "C": {
+      "path": "experiments\\provisional_v1\\runs\\C_lambda0.5_seed13\\best",
+      "sha256": "7849958ad9bfe99443be6b1a8f7c7f86e4bad7e3ceb05b5bf36209006a9b3ff9",
+      "seed": 13,
+      "lambda_value": 0.5,
+      "classification_threshold": 0.65
+    }
+  },
+  "mapping": {
+    "reference_jaw_radians": 0.175,
+    "target_jaw_radians": 0.175,
+    "rendered_control_indices": [
+      4
+    ],
+    "unrendered_control_indices": [
+      0,
+      1,
+      2,
+      3,
+      5
+    ],
+    "semantic_mapping_complete": false,
+    "calibrated": false,
+    "mapping": "Illustrative signed jaw projection: 0.175 rad reference + 0.175 rad * predicted jaw control",
+    "raw_controls": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "predictions": [
+    {
+      "text": "Open the jaw slightly.",
+      "model": "C",
+      "prediction": {
+        "y": [
+          0.00797011237591505,
+          -0.016534646973013878,
+          0.01782781258225441,
+          0.024336177855730057,
+          0.46573805809020996,
+          -0.04982325807213783
+        ],
+        "modified_mask": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "probabilities": [
+          0.33378857374191284,
+          0.036027371883392334,
+          0.23506250977516174,
+          0.2298167198896408,
+          0.9153386950492859,
+          0.4434097707271576
+        ],
+        "model_version": "C-seed13-step1000",
+        "schema_version": "1.0"
+      },
+      "projection": {
+        "reference_jaw_radians": 0.175,
+        "target_jaw_radians": 0.2565041601657867,
+        "rendered_control_indices": [
+          4
+        ],
+        "unrendered_control_indices": [
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        "semantic_mapping_complete": false,
+        "calibrated": false,
+        "mapping": "Illustrative signed jaw projection: 0.175 rad reference + 0.175 rad * predicted jaw control",
+        "raw_controls": [
+          0.00797011237591505,
+          -0.016534646973013878,
+          0.01782781258225441,
+          0.024336177855730057,
+          0.46573805809020996,
+          -0.04982325807213783
+        ]
+      },
+      "checkpoint": {
+        "path": "experiments\\provisional_v1\\runs\\C_lambda0.5_seed13\\best",
+        "sha256": "7849958ad9bfe99443be6b1a8f7c7f86e4bad7e3ceb05b5bf36209006a9b3ff9",
+        "seed": 13,
+        "lambda_value": 0.5,
+        "classification_threshold": 0.65
+      },
+      "official_experiment": false,
+      "notice": "Jaw-only preview. Eyebrow, eye, mouth-width, smile and cheek predictions are displayed but not applied to FLAME."
+    },
+    {
+      "text": "Open the jaw much.",
+      "model": "C",
+      "prediction": {
+        "y": [
+          -0.044817641377449036,
+          -0.049536846578121185,
+          -0.022682232782244682,
+          0.042840879410505295,
+          0.7914419174194336,
+          -0.03782855346798897
+        ],
+        "modified_mask": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "probabilities": [
+          0.29486483335494995,
+          0.02121393010020256,
+          0.26615047454833984,
+          0.304922491312027,
+          0.9568048119544983,
+          0.3832825720310211
+        ],
+        "model_version": "C-seed13-step1000",
+        "schema_version": "1.0"
+      },
+      "projection": {
+        "reference_jaw_radians": 0.175,
+        "target_jaw_radians": 0.31350233554840085,
+        "rendered_control_indices": [
+          4
+        ],
+        "unrendered_control_indices": [
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        "semantic_mapping_complete": false,
+        "calibrated": false,
+        "mapping": "Illustrative signed jaw projection: 0.175 rad reference + 0.175 rad * predicted jaw control",
+        "raw_controls": [
+          -0.044817641377449036,
+          -0.049536846578121185,
+          -0.022682232782244682,
+          0.042840879410505295,
+          0.7914419174194336,
+          -0.03782855346798897
+        ]
+      },
+      "checkpoint": {
+        "path": "experiments\\provisional_v1\\runs\\C_lambda0.5_seed13\\best",
+        "sha256": "7849958ad9bfe99443be6b1a8f7c7f86e4bad7e3ceb05b5bf36209006a9b3ff9",
+        "seed": 13,
+        "lambda_value": 0.5,
+        "classification_threshold": 0.65
+      },
+      "official_experiment": false,
+      "notice": "Jaw-only preview. Eyebrow, eye, mouth-width, smile and cheek predictions are displayed but not applied to FLAME."
+    },
+    {
+      "text": "Close the jaw slightly.",
+      "model": "C",
+      "prediction": {
+        "y": [
+          -0.06339351087808609,
+          -0.051329802721738815,
+          -0.0371406152844429,
+          -0.019983211532235146,
+          -0.4993569254875183,
+          -0.014612655155360699
+        ],
+        "modified_mask": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "probabilities": [
+          0.2842181324958801,
+          0.027110222727060318,
+          0.34989020228385925,
+          0.4084995985031128,
+          0.9318744540214539,
+          0.29239392280578613
+        ],
+        "model_version": "C-seed13-step1000",
+        "schema_version": "1.0"
+      },
+      "projection": {
+        "reference_jaw_radians": 0.175,
+        "target_jaw_radians": 0.08761253803968429,
+        "rendered_control_indices": [
+          4
+        ],
+        "unrendered_control_indices": [
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        "semantic_mapping_complete": false,
+        "calibrated": false,
+        "mapping": "Illustrative signed jaw projection: 0.175 rad reference + 0.175 rad * predicted jaw control",
+        "raw_controls": [
+          -0.06339351087808609,
+          -0.051329802721738815,
+          -0.0371406152844429,
+          -0.019983211532235146,
+          -0.4993569254875183,
+          -0.014612655155360699
+        ]
+      },
+      "checkpoint": {
+        "path": "experiments\\provisional_v1\\runs\\C_lambda0.5_seed13\\best",
+        "sha256": "7849958ad9bfe99443be6b1a8f7c7f86e4bad7e3ceb05b5bf36209006a9b3ff9",
+        "seed": 13,
+        "lambda_value": 0.5,
+        "classification_threshold": 0.65
+      },
+      "official_experiment": false,
+      "notice": "Jaw-only preview. Eyebrow, eye, mouth-width, smile and cheek predictions are displayed but not applied to FLAME."
+    },
+    {
+      "text": "Close the jaw much.",
+      "model": "C",
+      "prediction": {
+        "y": [
+          -0.11239732801914215,
+          -0.004252499435096979,
+          -0.058229729533195496,
+          0.035018566995859146,
+          -0.6576537489891052,
+          0.05223442614078522
+        ],
+        "modified_mask": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "probabilities": [
+          0.23699931800365448,
+          0.026344843208789825,
+          0.45212018489837646,
+          0.4373275935649872,
+          0.9430167078971863,
+          0.302749902009964
+        ],
+        "model_version": "C-seed13-step1000",
+        "schema_version": "1.0"
+      },
+      "projection": {
+        "reference_jaw_radians": 0.175,
+        "target_jaw_radians": 0.05991059392690658,
+        "rendered_control_indices": [
+          4
+        ],
+        "unrendered_control_indices": [
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        "semantic_mapping_complete": false,
+        "calibrated": false,
+        "mapping": "Illustrative signed jaw projection: 0.175 rad reference + 0.175 rad * predicted jaw control",
+        "raw_controls": [
+          -0.11239732801914215,
+          -0.004252499435096979,
+          -0.058229729533195496,
+          0.035018566995859146,
+          -0.6576537489891052,
+          0.05223442614078522
+        ]
+      },
+      "checkpoint": {
+        "path": "experiments\\provisional_v1\\runs\\C_lambda0.5_seed13\\best",
+        "sha256": "7849958ad9bfe99443be6b1a8f7c7f86e4bad7e3ceb05b5bf36209006a9b3ff9",
+        "seed": 13,
+        "lambda_value": 0.5,
+        "classification_threshold": 0.65
+      },
+      "official_experiment": false,
+      "notice": "Jaw-only preview. Eyebrow, eye, mouth-width, smile and cheek predictions are displayed but not applied to FLAME."
+    }
+  ],
+  "mesh_vertex_count": 5023,
+  "mesh_face_count": 9976,
+  "animation_frames": 72,
+  "animation_method": "Each frame independently FLAME-decoded at an interpolated jaw angle",
+  "ringnet_predictor_used": false,
+  "semantic_mapping_complete": false
+}

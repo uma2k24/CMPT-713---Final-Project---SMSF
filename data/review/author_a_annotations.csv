@@ -1,0 +1,1 @@
+instruction_id,annotator_id,annotated_at,guideline_version,eyebrow_elevation,eye_openness,mouth_width,smile_intensity,jaw_opening,cheek_raise,modified_mask_json,preserved_mask_json,ambiguous_spans,unsupported_spans,confidence,rationale

@@ -1,0 +1,23 @@
+{
+  "status": "implementation_ready_training_blocked_G2_and_missing_local_weights",
+  "pretrained_model_id": "google-t5/t5-base",
+  "pretrained_revision": "a9723ea7f1b39c1eae772870f3b547bf6ef7e6c1",
+  "revision_provenance": "Coordinator queried https://huggingface.co/api/models/google-t5/t5-base on 2026-11-23; no weights downloaded",
+  "release_manifest": "data/processed/release_v1/manifest.json",
+  "output_dir": "models/model_b/runs/B_seed13",
+  "seed": 13,
+  "batch_size": 4,
+  "pair_batch_size": 4,
+  "max_length": 128,
+  "max_updates": 1000,
+  "validation_every": 100,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.01,
+  "gradient_clip_norm": 1.0,
+  "scheduler": "constant",
+  "precision": "float32",
+  "device": "cuda",
+  "local_files_only": true,
+  "cache_dir": "external/huggingface_cache",
+  "budget_status": "predeclared_candidate_budget_requires_resource_preflight_before_official_run"
+}

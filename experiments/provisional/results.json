@@ -1,0 +1,369 @@
+{
+  "created_at_utc": "2026-11-23T22:40:11.960177+00:00",
+  "status": "provisional_unreviewed_synthetic_diagnostic",
+  "official_evaluation": false,
+  "data_manifest_sha256": "48619879d6158cc7c66ae17010cc7704b15b1cc98017d818d3a97118d669318a",
+  "model_a_code_sha256": "de505594b80cb6183d6a1284baadb4004cb8cebbdf291d71b2746e6f1b4995d5",
+  "metric_code_sha256": "3ada9dcf13f9af6897ffc36758e1cc91bd2ea98459a11633b616272e17801b5e",
+  "results": [
+    {
+      "metric_version": "1.0.0",
+      "split": "Test-ID",
+      "instruction_count": 100,
+      "metrics": {
+        "attribute_f1": {
+          "value": 1.0,
+          "eligible_count": 600,
+          "numerator": 552,
+          "reason": null,
+          "exclusion_count": 0,
+          "tp": 276,
+          "fp": 0,
+          "fn": 0,
+          "f1_denominator": 552,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "mae": {
+          "value": 0.0,
+          "eligible_count": 600,
+          "numerator": 0.0,
+          "reason": null,
+          "exclusion_count": 0
+        },
+        "compositional_accuracy": {
+          "value": null,
+          "eligible_count": 0,
+          "numerator": null,
+          "reason": "defined_for_Test-Comp",
+          "exclusion_count": 0
+        },
+        "negation_accuracy": {
+          "value": 1.0,
+          "eligible_count": 68,
+          "numerator": 68,
+          "reason": null,
+          "exclusion_count": 0,
+          "contributing_instruction_count": 68
+        },
+        "paraphrase_consistency": {
+          "value": null,
+          "eligible_count": 0,
+          "numerator": 0.0,
+          "reason": "no_verified_paraphrase_pairs",
+          "exclusion_count": 0,
+          "exclusions": {},
+          "contributing_instruction_count": 0,
+          "companion_mae": 0.0
+        },
+        "intensity_accuracy": {
+          "value": 1.0,
+          "eligible_count": 150,
+          "numerator": 150,
+          "reason": null,
+          "exclusion_count": 0,
+          "exclusions": {},
+          "contributing_instruction_count": 100,
+          "attribute_indices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      "supplementary": {
+        "active_attribute_mae": {
+          "value": 0.0,
+          "eligible_count": 276,
+          "numerator": 0.0,
+          "reason": null,
+          "exclusion_count": 0
+        },
+        "all_dimension_tolerance_accuracy": {
+          "value": 1.0,
+          "eligible_count": 100,
+          "numerator": 100,
+          "reason": null,
+          "exclusion_count": 0
+        }
+      },
+      "model": "A",
+      "seed": null,
+      "data_version": "candidate-v1",
+      "status": "provisional_unreviewed_synthetic_diagnostic",
+      "unsupported_count": 0
+    },
+    {
+      "metric_version": "1.0.0",
+      "split": "Test-ID",
+      "instruction_count": 100,
+      "metrics": {
+        "attribute_f1": {
+          "value": 0.0,
+          "eligible_count": 600,
+          "numerator": 0,
+          "reason": null,
+          "exclusion_count": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 276,
+          "f1_denominator": 276,
+          "precision": null,
+          "recall": 0.0
+        },
+        "mae": {
+          "value": 0.2991666666666667,
+          "eligible_count": 600,
+          "numerator": 179.5,
+          "reason": null,
+          "exclusion_count": 0
+        },
+        "compositional_accuracy": {
+          "value": null,
+          "eligible_count": 0,
+          "numerator": null,
+          "reason": "defined_for_Test-Comp",
+          "exclusion_count": 0
+        },
+        "negation_accuracy": {
+          "value": 1.0,
+          "eligible_count": 68,
+          "numerator": 68,
+          "reason": null,
+          "exclusion_count": 0,
+          "contributing_instruction_count": 68
+        },
+        "paraphrase_consistency": {
+          "value": null,
+          "eligible_count": 0,
+          "numerator": 0.0,
+          "reason": "no_verified_paraphrase_pairs",
+          "exclusion_count": 0,
+          "exclusions": {},
+          "contributing_instruction_count": 0,
+          "companion_mae": 0.2991666666666667
+        },
+        "intensity_accuracy": {
+          "value": 0.0,
+          "eligible_count": 150,
+          "numerator": 0,
+          "reason": null,
+          "exclusion_count": 0,
+          "exclusions": {},
+          "contributing_instruction_count": 100,
+          "attribute_indices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      "supplementary": {
+        "active_attribute_mae": {
+          "value": 0.6503623188405797,
+          "eligible_count": 276,
+          "numerator": 179.5,
+          "reason": null,
+          "exclusion_count": 0
+        },
+        "all_dimension_tolerance_accuracy": {
+          "value": 0.0,
+          "eligible_count": 100,
+          "numerator": 0,
+          "reason": null,
+          "exclusion_count": 0
+        }
+      },
+      "model": "constant_zero",
+      "seed": null,
+      "data_version": "candidate-v1",
+      "status": "provisional_unreviewed_synthetic_diagnostic",
+      "unsupported_count": 0
+    },
+    {
+      "metric_version": "1.0.0",
+      "split": "Test-Comp",
+      "instruction_count": 100,
+      "metrics": {
+        "attribute_f1": {
+          "value": 1.0,
+          "eligible_count": 600,
+          "numerator": 400,
+          "reason": null,
+          "exclusion_count": 0,
+          "tp": 200,
+          "fp": 0,
+          "fn": 0,
+          "f1_denominator": 400,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "mae": {
+          "value": 0.0,
+          "eligible_count": 600,
+          "numerator": 0.0,
+          "reason": null,
+          "exclusion_count": 0
+        },
+        "compositional_accuracy": {
+          "value": 1.0,
+          "eligible_count": 100,
+          "numerator": 100,
+          "reason": null,
+          "exclusion_count": 0
+        },
+        "negation_accuracy": {
+          "value": 1.0,
+          "eligible_count": 88,
+          "numerator": 88,
+          "reason": null,
+          "exclusion_count": 0,
+          "contributing_instruction_count": 88
+        },
+        "paraphrase_consistency": {
+          "value": null,
+          "eligible_count": 0,
+          "numerator": 0.0,
+          "reason": "no_verified_paraphrase_pairs",
+          "exclusion_count": 0,
+          "exclusions": {},
+          "contributing_instruction_count": 0,
+          "companion_mae": 0.0
+        },
+        "intensity_accuracy": {
+          "value": 1.0,
+          "eligible_count": 150,
+          "numerator": 150,
+          "reason": null,
+          "exclusion_count": 0,
+          "exclusions": {},
+          "contributing_instruction_count": 100,
+          "attribute_indices": [
+            0,
+            1,
+            3
+          ]
+        }
+      },
+      "supplementary": {
+        "active_attribute_mae": {
+          "value": 0.0,
+          "eligible_count": 200,
+          "numerator": 0.0,
+          "reason": null,
+          "exclusion_count": 0
+        },
+        "all_dimension_tolerance_accuracy": {
+          "value": 1.0,
+          "eligible_count": 100,
+          "numerator": 100,
+          "reason": null,
+          "exclusion_count": 0
+        }
+      },
+      "model": "A",
+      "seed": null,
+      "data_version": "candidate-v1",
+      "status": "provisional_unreviewed_synthetic_diagnostic",
+      "unsupported_count": 0
+    },
+    {
+      "metric_version": "1.0.0",
+      "split": "Test-Comp",
+      "instruction_count": 100,
+      "metrics": {
+        "attribute_f1": {
+          "value": 0.0,
+          "eligible_count": 600,
+          "numerator": 0,
+          "reason": null,
+          "exclusion_count": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 200,
+          "f1_denominator": 200,
+          "precision": null,
+          "recall": 0.0
+        },
+        "mae": {
+          "value": 0.2025,
+          "eligible_count": 600,
+          "numerator": 121.5,
+          "reason": null,
+          "exclusion_count": 0
+        },
+        "compositional_accuracy": {
+          "value": 0.0,
+          "eligible_count": 100,
+          "numerator": 0,
+          "reason": null,
+          "exclusion_count": 0
+        },
+        "negation_accuracy": {
+          "value": 1.0,
+          "eligible_count": 88,
+          "numerator": 88,
+          "reason": null,
+          "exclusion_count": 0,
+          "contributing_instruction_count": 88
+        },
+        "paraphrase_consistency": {
+          "value": null,
+          "eligible_count": 0,
+          "numerator": 0.0,
+          "reason": "no_verified_paraphrase_pairs",
+          "exclusion_count": 0,
+          "exclusions": {},
+          "contributing_instruction_count": 0,
+          "companion_mae": 0.2025
+        },
+        "intensity_accuracy": {
+          "value": 0.0,
+          "eligible_count": 150,
+          "numerator": 0,
+          "reason": null,
+          "exclusion_count": 0,
+          "exclusions": {},
+          "contributing_instruction_count": 100,
+          "attribute_indices": [
+            0,
+            1,
+            3
+          ]
+        }
+      },
+      "supplementary": {
+        "active_attribute_mae": {
+          "value": 0.6075,
+          "eligible_count": 200,
+          "numerator": 121.5,
+          "reason": null,
+          "exclusion_count": 0
+        },
+        "all_dimension_tolerance_accuracy": {
+          "value": 0.0,
+          "eligible_count": 100,
+          "numerator": 0,
+          "reason": null,
+          "exclusion_count": 0
+        }
+      },
+      "model": "constant_zero",
+      "seed": null,
+      "data_version": "candidate-v1",
+      "status": "provisional_unreviewed_synthetic_diagnostic",
+      "unsupported_count": 0
+    }
+  ],
+  "unavailable": {
+    "Test-Human": "No real human-authored/dual-annotated data collected",
+    "B": "Not fitted; reviewed data release required",
+    "C": "Not fitted; reviewed data and verified Train paraphrases required",
+    "paraphrase_consistency": "No human-verified paraphrase pairs"
+  },
+  "interpretation": "Grammar diagnostics only. Overlapping template families and no independently authored language; no evidence of neural or paraphrase gains."
+}

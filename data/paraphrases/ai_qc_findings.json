@@ -1,0 +1,1531 @@
+﻿{
+    "review_type":  "bounded_AI_semantic_QC_not_human_verification",
+    "status":  "completed_bounded_AI_sample_review",
+    "sample_size":  161,
+    "sampling":  "train shards: index=10*i+(i mod4), i=0..39; heldout: offsets0,100,200 plus floor(i*100/27), i=0..26",
+    "sample":  [
+                   {
+                       "shard":  "train_a",
+                       "source_index":  0,
+                       "base_id":  "base-c42f0c70fc94fa09fb3c8c59",
+                       "split":  "Train",
+                       "original":  "please lower the eyebrows slightly.",
+                       "candidate":  "Bring the brows down a little.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  11,
+                       "base_id":  "base-4764b69d1e033c1a8f8a0865",
+                       "split":  "Train",
+                       "original":  "maximally close the eyes.",
+                       "candidate":  "Close the eyes as much as possible.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  22,
+                       "base_id":  "base-2787c324ccee482f508e1a87",
+                       "split":  "Train",
+                       "original":  "widen the mouth much.",
+                       "candidate":  "Broaden the mouth considerably.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  33,
+                       "base_id":  "base-8ca704df9964be2f29f68dd8",
+                       "split":  "Train",
+                       "original":  "moderately close the jaw.",
+                       "candidate":  "Make the jaw moderately less open.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  40,
+                       "base_id":  "base-513fbb61ff5b4cb622915d98",
+                       "split":  "Train",
+                       "original":  "slightly lower the cheeks.",
+                       "candidate":  "Bring the cheeks down a little.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  51,
+                       "base_id":  "base-22e9a6428d8a00c982725929",
+                       "split":  "Train",
+                       "original":  "lower the eyebrows maximally and open the eyes much and keep the smile unchanged.",
+                       "candidate":  "Lower the brows as much as possible while opening the eyes considerably. Preserve the smile.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  62,
+                       "base_id":  "base-2d8981db461aee810f9606d7",
+                       "split":  "Train",
+                       "original":  "raise the eyebrows much and raise the cheeks slightly.",
+                       "candidate":  "Give the brows a considerable lift and the cheeks a slight lift.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  73,
+                       "base_id":  "base-daf9576f012591ba2032cdd7",
+                       "split":  "Train",
+                       "original":  "moderately open the eyes and do not change the mouth and moderately raise the cheeks.",
+                       "candidate":  "Keep the mouth as it is while moderately opening the eyes and moderately raising the cheeks.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  80,
+                       "base_id":  "base-6decbd7f974d98acbbe33fbf",
+                       "split":  "Train",
+                       "original":  "please narrow the mouth slightly and close the jaw slightly and keep the cheeks unchanged.",
+                       "candidate":  "Keep the cheeks unchanged while reducing mouth width a little and closing the jaw a little.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  91,
+                       "base_id":  "base-54c5c88b1bf896a32146d598",
+                       "split":  "Train",
+                       "original":  "please keep the eyebrows unchanged and strengthen the smile maximally and open the jaw much.",
+                       "candidate":  "Increase smile strength as much as possible and open the jaw considerably, without changing the brows.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  102,
+                       "base_id":  "base-b4084b996231cdaaf1fe125b",
+                       "split":  "Train",
+                       "original":  "raise the eyebrows much and close the eyes much and do not change the jaw and slightly lower the cheeks.",
+                       "candidate":  "Leave the jaw unchanged. Raise the brows considerably, close the eyes considerably, and bring the cheeks down slightly.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  113,
+                       "base_id":  "base-d71b1fd653c5cd80b3c43280",
+                       "split":  "Train",
+                       "original":  "please close the eyes and narrow the mouth and reduce the smile maximally and keep the cheeks unchanged.",
+                       "candidate":  "Leave the cheeks unchanged while moderately closing the eyes, moderately narrowing the mouth, and maximally weakening the smile.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  120,
+                       "base_id":  "base-0ce99343d4c8882b8b98912b",
+                       "split":  "Train",
+                       "original":  "keep the eyes unchanged and narrow the mouth slightly and reduce the smile moderately and close the jaw slightly.",
+                       "candidate":  "Keep the eyes unchanged; make the mouth slightly narrower, the smile moderately weaker, and the jaw slightly less open.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  131,
+                       "base_id":  "base-29de7b2124bb1d83183d7582",
+                       "split":  "Train",
+                       "original":  "close the eyes maximally and strengthen the smile slightly and keep the cheeks unchanged.",
+                       "candidate":  "Close the eyes as much as possible and strengthen the smile a bit; leave the cheeks unchanged.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  142,
+                       "base_id":  "base-aaa1e5ddddb36ee08b3a0da4",
+                       "split":  "Train",
+                       "original":  "close the eyes much and narrow the mouth maximally and reduce the smile slightly and keep the cheeks unchanged.",
+                       "candidate":  "Make the eyes considerably less open, narrow the mouth as much as possible, and weaken the smile a bit. Leave the cheeks alone.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  153,
+                       "base_id":  "base-1a374ac3b06802bfc65a4815",
+                       "split":  "Train",
+                       "original":  "raise the eyebrows moderately and reduce the smile much and open the jaw maximally and keep the cheeks unchanged.",
+                       "candidate":  "Keep the cheeks unchanged and raise the brows moderately; make the smile much weaker and open the jaw maximally.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  160,
+                       "base_id":  "base-9e2420e1679754db26d50887",
+                       "split":  "Train",
+                       "original":  "slightly narrow the mouth and close the jaw much and lower the cheeks much.",
+                       "candidate":  "Close the jaw considerably, lower the cheeks considerably, and make the mouth slightly narrower.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  171,
+                       "base_id":  "base-1f1b60aebedcdb836e319773",
+                       "split":  "Train",
+                       "original":  "maximally narrow the mouth and strengthen the smile much and moderately close the jaw and do not change the cheeks.",
+                       "candidate":  "Narrow the mouth as much as possible, close the jaw moderately, and intensify the smile considerably without changing the cheeks.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  182,
+                       "base_id":  "base-5d6fb305c1292854a940450b",
+                       "split":  "Train",
+                       "original":  "raise the eyebrows much and reduce the smile maximally and open the jaw much.",
+                       "candidate":  "Raise the eyebrows a lot, open the jaw a lot, and reduce the smile as much as possible.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  193,
+                       "base_id":  "base-b63e57ca291b98115f457050",
+                       "split":  "Train",
+                       "original":  "please lower the eyebrows and open the eyes slightly and keep the mouth unchanged and reduce the smile slightly.",
+                       "candidate":  "Lower the brows moderately, open the eyes a little, and reduce smile strength a little while preserving the mouth.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  200,
+                       "base_id":  "base-b2ecc861bc262229cca8dab8",
+                       "split":  "Train",
+                       "original":  "slightly lower the eyebrows and slightly close the eyes and do not change the mouth and moderately raise the cheeks.",
+                       "candidate":  "Keep the mouth unchanged. Lower the brows a little, close the eyes a little, and lift the cheeks moderately.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  211,
+                       "base_id":  "base-ef95b46949b2aad6a7ed8e99",
+                       "split":  "Train",
+                       "original":  "keep the eyes unchanged and narrow the mouth maximally and strengthen the smile moderately and open the jaw much.",
+                       "candidate":  "Keep the eyes unchanged, narrow the mouth as much as possible, moderately intensify the smile, and considerably increase jaw opening.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  222,
+                       "base_id":  "base-62f41ea8d7c2a0a6a8f89524",
+                       "split":  "Train",
+                       "original":  "please raise the eyebrows much and open the jaw and raise the cheeks.",
+                       "candidate":  "Considerably raise the brows while moderately increasing jaw opening and moderately lifting the cheeks.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  233,
+                       "base_id":  "base-a224303bc91c040739af2cf4",
+                       "split":  "Train",
+                       "original":  "please keep the eyes unchanged and strengthen the smile and close the jaw slightly.",
+                       "candidate":  "Strengthen the smile moderately and slightly decrease jaw opening, without altering the eyes.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  240,
+                       "base_id":  "base-17cac3422cb9d876185436ff",
+                       "split":  "Train",
+                       "original":  "keep the eyebrows unchanged and open the eyes slightly and narrow the mouth moderately and reduce the smile much.",
+                       "candidate":  "Preserve the brows. Open the eyes a little, narrow the mouth moderately, and weaken the smile considerably.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  251,
+                       "base_id":  "base-e5f8d970cc9358b2fad8d97d",
+                       "split":  "Train",
+                       "original":  "raise the eyebrows maximally and close the eyes maximally and keep the mouth unchanged and lower the cheeks moderately.",
+                       "candidate":  "Raise the brows and close the eyes each as much as possible, with moderately lowered cheeks and an unchanged mouth.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  262,
+                       "base_id":  "base-829f415b203b40b0e293670b",
+                       "split":  "Train",
+                       "original":  "close the eyes much and slightly narrow the mouth and do not change the smile and maximally lower the cheeks.",
+                       "candidate":  "Close the eyes considerably, narrow the mouth slightly, and maximally lower the cheeks while leaving the smile alone.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  273,
+                       "base_id":  "base-e7375f6c5dcb9a7882e50b44",
+                       "split":  "Train",
+                       "original":  "please open the eyes and widen the mouth much and keep the jaw unchanged and raise the cheeks slightly.",
+                       "candidate":  "Preserve the jaw while moderately opening the eyes, considerably broadening the mouth, and slightly lifting the cheeks.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  280,
+                       "base_id":  "base-230f18b86a8be02c6edfe29c",
+                       "split":  "Train",
+                       "original":  "please keep the eyebrows unchanged and close the eyes slightly and narrow the mouth much and strengthen the smile maximally.",
+                       "candidate":  "Keep the brows unchanged and close the eyes a little; narrow the mouth considerably and strengthen the smile as much as possible.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  291,
+                       "base_id":  "base-0f66cf7aed867bfb052b0bcb",
+                       "split":  "Train",
+                       "original":  "open the eyes maximally and widen the mouth slightly.",
+                       "candidate":  "Open the eyes as much as possible and make the mouth slightly wider.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  302,
+                       "base_id":  "base-f4ad3b2a8f23ce5c039d0cea",
+                       "split":  "Train",
+                       "original":  "please keep the eyebrows unchanged and widen the mouth much and open the jaw slightly and raise the cheeks maximally.",
+                       "candidate":  "Make the mouth much wider and the jaw slightly more open, raise the cheeks maximally, and keep the eyebrows as they are.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  313,
+                       "base_id":  "base-8b9d4ad646dec518320eb48b",
+                       "split":  "Train",
+                       "original":  "moderately raise the eyebrows and do not change the eyes and reduce the smile much and maximally open the jaw.",
+                       "candidate":  "Preserve the eyes while moderately raising the eyebrows, considerably reducing smile intensity, and maximally opening the jaw.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  320,
+                       "base_id":  "base-24b548cd41a48902d79108c5",
+                       "split":  "Train",
+                       "original":  "slightly raise the eyebrows and do not change the mouth and maximally reduce the smile and open the jaw much.",
+                       "candidate":  "Keep the mouth unchanged while giving the brows a slight lift, reducing the smile maximally, and opening the jaw considerably.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  331,
+                       "base_id":  "base-4c29785d4ae49b6f507adae4",
+                       "split":  "Train",
+                       "original":  "please close the eyes maximally and widen the mouth maximally and keep the jaw unchanged and lower the cheeks much.",
+                       "candidate":  "Close the eyes and widen the mouth each as much as possible, considerably lower the cheeks, and keep the jaw as it is.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  342,
+                       "base_id":  "base-0dfbcc927cf6c9674532beba",
+                       "split":  "Train",
+                       "original":  "please narrow the mouth much and strengthen the smile maximally and close the jaw slightly.",
+                       "candidate":  "Narrow the mouth considerably, strengthen the smile maximally, and close the jaw a bit.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  353,
+                       "base_id":  "base-a7b324b55f18da811b92269e",
+                       "split":  "Train",
+                       "original":  "please raise the eyebrows and close the eyes maximally and reduce the smile slightly and keep the jaw unchanged.",
+                       "candidate":  "Preserve the jaw while moderately raising the brows, closing the eyes as much as possible, and slightly reducing smile strength.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  360,
+                       "base_id":  "base-cc0694cd697bb2e1deaee703",
+                       "split":  "Train",
+                       "original":  "please lower the eyebrows slightly and keep the mouth unchanged and close the jaw slightly and lower the cheeks slightly.",
+                       "candidate":  "Leave the mouth unchanged and make three slight changes: lower the brows, close the jaw, and lower the cheeks.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  371,
+                       "base_id":  "base-91692051ad5aa1ef4ef35aa8",
+                       "split":  "Train",
+                       "original":  "please raise the eyebrows maximally and close the eyes and keep the jaw unchanged and lower the cheeks.",
+                       "candidate":  "Raise the brows as much as possible, moderately close the eyes, and moderately lower the cheeks, without altering the jaw.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  382,
+                       "base_id":  "base-a6320595e0b81175e706b41f",
+                       "split":  "Train",
+                       "original":  "please keep the eyebrows unchanged and close the eyes much and widen the mouth and lower the cheeks.",
+                       "candidate":  "Make the eyes much less open, the mouth somewhat wider, and the cheeks somewhat lower, with the brows unchanged.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_a",
+                       "source_index":  393,
+                       "base_id":  "base-65991118b1750a8e388ba09e",
+                       "split":  "Train",
+                       "original":  "lower the eyebrows moderately and reduce the smile much and open the jaw moderately and keep the cheeks unchanged.",
+                       "candidate":  "Preserve the cheeks while moderately lowering the eyebrows, reducing the smile a lot, and moderately increasing jaw opening.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  0,
+                       "base_id":  "base-ff67b61722f331e513600c76",
+                       "split":  "Train",
+                       "original":  "please narrow the mouth slightly and strengthen the smile much and open the jaw.",
+                       "candidate":  "Give the smile considerably more strength, open the jaw moderately, and make the mouth a little narrower.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  11,
+                       "base_id":  "base-1768df223ca8e43c11e4c873",
+                       "split":  "Train",
+                       "original":  "raise the eyebrows maximally and close the eyes much and keep the smile unchanged.",
+                       "candidate":  "Raise the brows as much as possible and close the eyes considerably; do not alter the smile.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  22,
+                       "base_id":  "base-6dd5500624aa31a22f66b29f",
+                       "split":  "Train",
+                       "original":  "please lower the eyebrows much and keep the eyes unchanged and open the jaw maximally and raise the cheeks maximally.",
+                       "candidate":  "Bring the brows down considerably, open the jaw maximally, and lift the cheeks as much as possible, keeping the eyes unchanged.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  33,
+                       "base_id":  "base-cbc8756b675e136626aa47fc",
+                       "split":  "Train",
+                       "original":  "please lower the eyebrows and strengthen the smile much and close the jaw and keep the cheeks unchanged.",
+                       "candidate":  "Lower the brows somewhat, increase smile strength considerably, and moderately close the jaw; leave the cheeks as they are.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  40,
+                       "base_id":  "base-a32d79bc1f33ddf6d4d9f405",
+                       "split":  "Train",
+                       "original":  "do not change the eyebrows and slightly close the eyes and maximally widen the mouth and maximally raise the cheeks.",
+                       "candidate":  "Keep the eyebrows as they are, close the eyes a little, and maximally widen the mouth and raise the cheeks.",
+                       "ai_review_status":  "human_scope_review_recommended"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  51,
+                       "base_id":  "base-098549dfcc59a28573932c86",
+                       "split":  "Train",
+                       "original":  "maximally raise the eyebrows and do not change the mouth and close the jaw much and slightly lower the cheeks.",
+                       "candidate":  "Lift the eyebrows maximally, close the jaw a lot, and bring the cheeks down a little, with no change to the mouth.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  62,
+                       "base_id":  "base-b644f57b9351a7f57b610e1b",
+                       "split":  "Train",
+                       "original":  "lower the eyebrows much and open the eyes much and keep the mouth unchanged and reduce the smile much.",
+                       "candidate":  "Lower the eyebrows considerably, increase eye openness considerably, and reduce smile strength considerably; keep the mouth as it is.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  73,
+                       "base_id":  "base-b497cacf0b61f2b2fc63dea7",
+                       "split":  "Train",
+                       "original":  "please keep the eyebrows unchanged and close the eyes and reduce the smile much.",
+                       "candidate":  "Close the eyes moderately and weaken the smile a lot without changing the brows.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  80,
+                       "base_id":  "base-c81566e9209576174c933db0",
+                       "split":  "Train",
+                       "original":  "keep the eyebrows unchanged and open the eyes slightly and narrow the mouth maximally and raise the cheeks much.",
+                       "candidate":  "Keep the brows unchanged, open the eyes a bit, narrow the mouth maximally, and lift the cheeks considerably.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  91,
+                       "base_id":  "base-a5bd60292dc9029e9a49ac81",
+                       "split":  "Train",
+                       "original":  "please widen the mouth maximally and strengthen the smile maximally and close the jaw and keep the cheeks unchanged.",
+                       "candidate":  "Maximally widen the mouth and strengthen the smile, close the jaw moderately, and keep the cheeks as they are.",
+                       "ai_review_status":  "human_scope_review_recommended"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  102,
+                       "base_id":  "base-ae17d05bd771faffedf8fc0f",
+                       "split":  "Train",
+                       "original":  "lower the eyebrows much and maximally close the eyes and maximally reduce the smile and do not change the cheeks.",
+                       "candidate":  "Lower the eyebrows considerably while closing the eyes to the maximum and reducing the smile maximally; leave the cheeks alone.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  113,
+                       "base_id":  "base-0f2190cf8846c74ee215bec0",
+                       "split":  "Train",
+                       "original":  "moderately close the eyes and do not change the jaw.",
+                       "candidate":  "Close the eyes moderately, leaving the jaw unchanged.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  120,
+                       "base_id":  "base-b20281f4f83785153517662b",
+                       "split":  "Train",
+                       "original":  "do not change the eyebrows and slightly open the eyes and slightly narrow the mouth and slightly strengthen the smile.",
+                       "candidate":  "Leave the eyebrows alone and make slight changes to open the eyes, narrow the mouth, and strengthen the smile.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  131,
+                       "base_id":  "base-be748e687576de45e6e73cfd",
+                       "split":  "Train",
+                       "original":  "please raise the eyebrows maximally and open the jaw much and lower the cheeks maximally.",
+                       "candidate":  "Lift the eyebrows maximally, lower the cheeks maximally, and make the jaw considerably more open.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  142,
+                       "base_id":  "base-4e37b0fca18feb88f7596459",
+                       "split":  "Train",
+                       "original":  "widen the mouth much and do not change the smile and open the jaw much and maximally lower the cheeks.",
+                       "candidate":  "Preserve the smile while considerably widening the mouth and opening the jaw, and maximally lowering the cheeks.",
+                       "ai_review_status":  "human_scope_review_recommended"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  153,
+                       "base_id":  "base-d34eea5f429df6ee83271693",
+                       "split":  "Train",
+                       "original":  "moderately open the eyes and moderately widen the mouth and do not change the jaw and moderately raise the cheeks.",
+                       "candidate":  "Make moderate increases in eye openness, mouth width, and cheek height, preserving the jaw.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  160,
+                       "base_id":  "base-1793cafd60ea6a77c07d3c72",
+                       "split":  "Train",
+                       "original":  "slightly close the eyes and narrow the mouth much and slightly reduce the smile and do not change the cheeks.",
+                       "candidate":  "Keep the cheeks unchanged and close the eyes a bit, narrow the mouth a lot, and reduce the smile slightly.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  171,
+                       "base_id":  "base-790a76862752c4412340d78e",
+                       "split":  "Train",
+                       "original":  "lower the eyebrows maximally and close the eyes slightly and strengthen the smile much.",
+                       "candidate":  "Lower the eyebrows as much as possible, close the eyes a bit, and strengthen the smile a lot.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  182,
+                       "base_id":  "base-610d81b08db4d42dff7bc2c2",
+                       "split":  "Train",
+                       "original":  "close the eyes much and slightly widen the mouth and do not change the jaw and slightly lower the cheeks.",
+                       "candidate":  "Preserve the jaw while making the eyes considerably less open, the mouth slightly wider, and the cheeks slightly lower.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  193,
+                       "base_id":  "base-296e7996ae5b102087cdb258",
+                       "split":  "Train",
+                       "original":  "keep the eyes unchanged and narrow the mouth moderately and close the jaw much and raise the cheeks moderately.",
+                       "candidate":  "Make the mouth moderately narrower and the cheeks moderately higher, close the jaw a lot, and leave the eyes unchanged.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  200,
+                       "base_id":  "base-ae251d638b7e97b1ce1672e2",
+                       "split":  "Train",
+                       "original":  "do not change the eyebrows and slightly reduce the smile and slightly open the jaw.",
+                       "candidate":  "Leave the eyebrows unchanged, weaken the smile a little, and open the jaw slightly.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  211,
+                       "base_id":  "base-c833ff6e4be6847a1f48bf1e",
+                       "split":  "Train",
+                       "original":  "maximally open the eyes and slightly narrow the mouth and do not change the jaw.",
+                       "candidate":  "Open the eyes as much as possible and narrow the mouth a bit, leaving the jaw alone.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  222,
+                       "base_id":  "base-fdf299cce2cc0635aea9a0ed",
+                       "split":  "Train",
+                       "original":  "lower the eyebrows much and close the eyes slightly and keep the mouth unchanged and lower the cheeks much.",
+                       "candidate":  "Lower the eyebrows and cheeks considerably, close the eyes a bit, and keep the mouth unchanged.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  233,
+                       "base_id":  "base-380c81e8bd7505d446b1238f",
+                       "split":  "Train",
+                       "original":  "please lower the eyebrows and open the eyes and keep the mouth unchanged and reduce the smile.",
+                       "candidate":  "Make moderate changes to lower the eyebrows, open the eyes, and reduce smile strength, preserving the mouth.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  240,
+                       "base_id":  "base-840bef5f218127e8af2c879d",
+                       "split":  "Train",
+                       "original":  "keep the eyebrows unchanged and widen the mouth slightly and strengthen the smile slightly and close the jaw moderately.",
+                       "candidate":  "Leave the brows unchanged, widen the mouth a little, strengthen the smile a little, and moderately close the jaw.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  251,
+                       "base_id":  "base-53f60f8099f264cc3671f83b",
+                       "split":  "Train",
+                       "original":  "maximally raise the eyebrows and moderately open the eyes and do not change the mouth and maximally lower the cheeks.",
+                       "candidate":  "Raise the brows and lower the cheeks to their maximum extent, open the eyes moderately, and preserve the mouth.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  262,
+                       "base_id":  "base-0755c654ae470640151604fb",
+                       "split":  "Train",
+                       "original":  "lower the eyebrows much and keep the mouth unchanged and open the jaw slightly and raise the cheeks moderately.",
+                       "candidate":  "Bring the eyebrows down considerably, open the jaw slightly, and moderately raise the cheeks; preserve the mouth.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  273,
+                       "base_id":  "base-9464175e8f094bd2e765d827",
+                       "split":  "Train",
+                       "original":  "please close the eyes and narrow the mouth and strengthen the smile much and keep the cheeks unchanged.",
+                       "candidate":  "Moderately close the eyes and narrow the mouth, strengthen the smile considerably, and preserve the cheeks.",
+                       "ai_review_status":  "human_scope_review_recommended"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  280,
+                       "base_id":  "base-19abbd04926d0cb54f529920",
+                       "split":  "Train",
+                       "original":  "do not change the eyebrows and slightly strengthen the smile and close the jaw much.",
+                       "candidate":  "Keep the eyebrows unchanged, slightly strengthen the smile, and close the jaw a lot.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  291,
+                       "base_id":  "base-e9cd2b56cfde7c150dbebed1",
+                       "split":  "Train",
+                       "original":  "please keep the smile unchanged and open the jaw maximally and lower the cheeks maximally.",
+                       "candidate":  "Keep the smile unchanged while maximally opening the jaw and maximally lowering the cheeks.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  302,
+                       "base_id":  "base-1ea7482008bac8d368da426f",
+                       "split":  "Train",
+                       "original":  "please lower the eyebrows much and close the eyes maximally and keep the cheeks unchanged.",
+                       "candidate":  "Bring the brows down considerably and close the eyes to the maximum; preserve the cheeks.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  313,
+                       "base_id":  "base-853b56f18cf6fdec1fe85c7f",
+                       "split":  "Train",
+                       "original":  "lower the eyebrows moderately and lower the cheeks moderately.",
+                       "candidate":  "Lower both the eyebrows and the cheeks by a moderate amount.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  320,
+                       "base_id":  "base-8a04c0824f35379d24c465ba",
+                       "split":  "Train",
+                       "original":  "slightly raise the eyebrows and moderately open the eyes and moderately reduce the smile and do not change the cheeks.",
+                       "candidate":  "Keep the cheeks as they are, raise the eyebrows slightly, open the eyes moderately, and reduce the smile moderately.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  331,
+                       "base_id":  "base-a98a62e80777dd90958ae447",
+                       "split":  "Train",
+                       "original":  "close the eyes maximally and widen the mouth moderately and reduce the smile maximally and keep the cheeks unchanged.",
+                       "candidate":  "Maximally close the eyes and reduce the smile, moderately widen the mouth, and leave the cheeks as they are.",
+                       "ai_review_status":  "human_scope_review_recommended"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  342,
+                       "base_id":  "base-8780d94aa9aef48305f2149a",
+                       "split":  "Train",
+                       "original":  "lower the eyebrows much and slightly close the jaw and do not change the cheeks.",
+                       "candidate":  "Bring the brows down a lot and close the jaw slightly; leave the cheeks alone.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  353,
+                       "base_id":  "base-0f83c259fc560663f32f645a",
+                       "split":  "Train",
+                       "original":  "do not change the eyebrows and moderately open the eyes and maximally strengthen the smile.",
+                       "candidate":  "Open the eyes somewhat and give the smile its maximum strengthening, preserving the brows.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  360,
+                       "base_id":  "base-103d7f3e5b0db75dcfc7f69d",
+                       "split":  "Train",
+                       "original":  "please raise the eyebrows slightly and reduce the smile and open the jaw maximally.",
+                       "candidate":  "Lift the brows a little, weaken the smile moderately, and open the jaw as much as possible.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  371,
+                       "base_id":  "base-68ca959511e2186974d6cec7",
+                       "split":  "Train",
+                       "original":  "maximally narrow the mouth and moderately strengthen the smile and moderately close the jaw and do not change the cheeks.",
+                       "candidate":  "Reduce mouth width maximally while moderately strengthening the smile and closing the jaw, without modifying the cheeks.",
+                       "ai_review_status":  "human_scope_review_recommended"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  382,
+                       "base_id":  "base-cfd9bfd950bee4bcb5259aad",
+                       "split":  "Train",
+                       "original":  "raise the eyebrows much and close the eyes much and maximally reduce the smile and do not change the jaw.",
+                       "candidate":  "Lift the eyebrows considerably and close the eyes considerably, reduce the smile maximally, and keep the jaw as it is.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "train_b",
+                       "source_index":  393,
+                       "base_id":  "base-bbe81b7eb5ae207339e27fa8",
+                       "split":  "Train",
+                       "original":  "please open the eyes and widen the mouth much and keep the smile unchanged and lower the cheeks slightly.",
+                       "candidate":  "Open the eyes moderately, broaden the mouth a lot, and bring the cheeks down a little, preserving the smile.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  0,
+                       "base_id":  "base-450b1ffa51e93c0c4233f0de",
+                       "split":  "Val",
+                       "original":  "please keep the mouth unchanged and close the jaw slightly and raise the cheeks maximally.",
+                       "candidate":  "Leave the mouth as it is, bring the jaw a little closer to closed, and lift the cheeks as much as possible.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  3,
+                       "base_id":  "base-b510f0c63431e92c0c722fbf",
+                       "split":  "Val",
+                       "original":  "please keep the mouth unchanged and close the jaw maximally and raise the cheeks maximally.",
+                       "candidate":  "The mouth should stay unchanged; close the jaw as much as possible and raise the cheeks as much as possible.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  7,
+                       "base_id":  "base-a14ea339db21f9aea57b2e58",
+                       "split":  "Val",
+                       "original":  "keep the eyes unchanged and narrow the mouth maximally and strengthen the smile slightly and open the jaw slightly.",
+                       "candidate":  "Take the mouth to its maximum narrowing, slightly strengthen the smile, and slightly open the jaw, with no change to the eyes.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  11,
+                       "base_id":  "base-19ad2fad2a7c9b16b756fb5f",
+                       "split":  "Val",
+                       "original":  "close the eyes maximally and widen the mouth moderately and keep the smile unchanged and lower the cheeks moderately.",
+                       "candidate":  "Close the eyes as much as possible, broaden the mouth moderately, and lower the cheeks moderately. Preserve the smile.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  14,
+                       "base_id":  "base-2f461d73b89d6b61e603cc73",
+                       "split":  "Val",
+                       "original":  "widen the mouth much and reduce the smile much and close the jaw much.",
+                       "candidate":  "Make the mouth much wider while reducing the smile considerably and closing the jaw considerably.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  18,
+                       "base_id":  "base-ab4d9f5fa796964d19c8bece",
+                       "split":  "Val",
+                       "original":  "raise the eyebrows much and moderately close the eyes and do not change the mouth and moderately strengthen the smile.",
+                       "candidate":  "Raise the eyebrows considerably and close the eyes moderately. Give the smile a moderate increase, without changing the mouth.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  22,
+                       "base_id":  "base-3e459b7f825f96a3b439a51e",
+                       "split":  "Val",
+                       "original":  "widen the mouth much and slightly close the jaw and lower the cheeks much.",
+                       "candidate":  "Broaden the mouth considerably and bring the cheeks much lower, with a slight closing of the jaw.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  25,
+                       "base_id":  "base-47e9c87e2889f0ac8189163d",
+                       "split":  "Val",
+                       "original":  "please raise the eyebrows and open the eyes much and strengthen the smile slightly and keep the jaw unchanged.",
+                       "candidate":  "Moderately lift the eyebrows and open the eyes considerably; make the smile a little stronger while preserving the jaw.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  29,
+                       "base_id":  "base-7e108e9d1503a34a77c55f20",
+                       "split":  "Val",
+                       "original":  "please keep the eyes unchanged and narrow the mouth and strengthen the smile and open the jaw.",
+                       "candidate":  "Moderately narrow the mouth, moderately increase the smile\u0027s strength, and moderately open the jaw. Leave the eyes alone.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  33,
+                       "base_id":  "base-ec3b1df53c75c5659786c459",
+                       "split":  "Val",
+                       "original":  "moderately open the eyes and do not change the smile and slightly raise the cheeks.",
+                       "candidate":  "Leave the smile as it is while opening the eyes moderately and raising the cheeks slightly.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  37,
+                       "base_id":  "base-e8e7ae53e434bda1919f47e0",
+                       "split":  "Val",
+                       "original":  "please lower the eyebrows and open the eyes maximally and raise the cheeks maximally.",
+                       "candidate":  "Give the brows a moderate lowering, the eyes the maximum opening, and the cheeks the maximum lift.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  40,
+                       "base_id":  "base-20840d55b5d764589f0af9dc",
+                       "split":  "Val",
+                       "original":  "please keep the eyes unchanged and narrow the mouth slightly and reduce the smile much and open the jaw maximally.",
+                       "candidate":  "Leave the eyes unchanged. Narrow the mouth slightly, reduce smile strength considerably, and open the jaw to the maximum.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  44,
+                       "base_id":  "base-a3353ff7808b1b4e3f107a89",
+                       "split":  "Val",
+                       "original":  "do not change the eyes and slightly widen the mouth and slightly strengthen the smile and slightly close the jaw.",
+                       "candidate":  "Please preserve the eyes, widen the mouth a bit, strengthen the smile a bit, and close the jaw a bit.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  48,
+                       "base_id":  "base-431efc88c039cc6ef68edbdf",
+                       "split":  "Val",
+                       "original":  "lower the eyebrows slightly and open the eyes maximally and strengthen the smile slightly and keep the jaw unchanged.",
+                       "candidate":  "Lower the brows a little and open the eyes as much as possible. Strengthen the smile slightly but preserve the jaw.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  51,
+                       "base_id":  "base-fbf2e408d63d52998b512e63",
+                       "split":  "Val",
+                       "original":  "lower the eyebrows maximally and open the eyes maximally and strengthen the smile slightly and keep the jaw unchanged.",
+                       "candidate":  "Preserve the jaw, lower the brows as much as possible, and open the eyes as much as possible. Make the smile a little stronger.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  55,
+                       "base_id":  "base-e55eac50c1f4acedb1483e8e",
+                       "split":  "Val",
+                       "original":  "do not change the eyes and maximally widen the mouth and close the jaw much and moderately raise the cheeks.",
+                       "candidate":  "Widen the mouth to the maximum, close the jaw a lot, and lift the cheeks moderately. Leave the eyes unchanged.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  59,
+                       "base_id":  "base-13d29e83d18fa9e9fd70a81a",
+                       "split":  "Val",
+                       "original":  "please narrow the mouth maximally and strengthen the smile slightly and close the jaw much.",
+                       "candidate":  "Take the narrowing of the mouth as far as possible, slightly increase smile strength, and considerably close the jaw.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  62,
+                       "base_id":  "base-ac5b59bbfa904e69281e2de4",
+                       "split":  "Val",
+                       "original":  "please keep the eyebrows unchanged and widen the mouth much and reduce the smile and close the jaw maximally.",
+                       "candidate":  "Keep the eyebrows as they are while considerably widening the mouth, moderately weakening the smile, and maximally closing the jaw.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  66,
+                       "base_id":  "base-5d10a3e8f79d398e59a29f9c",
+                       "split":  "Val",
+                       "original":  "please narrow the mouth much and keep the smile unchanged and close the jaw maximally and raise the cheeks slightly.",
+                       "candidate":  "Make the mouth considerably narrower, close the jaw as much as possible, and lift the cheeks slightly, without altering the smile.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  70,
+                       "base_id":  "base-8aa73ffb55a2db4137575b7f",
+                       "split":  "Val",
+                       "original":  "raise the eyebrows much and maximally strengthen the smile and maximally close the jaw.",
+                       "candidate":  "Lift the eyebrows considerably, give the smile the maximum increase in strength, and give the jaw the maximum closing.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  74,
+                       "base_id":  "base-a1badba044330b1aed5f3b83",
+                       "split":  "Val",
+                       "original":  "please lower the eyebrows much and keep the eyes unchanged and open the jaw much and lower the cheeks maximally.",
+                       "candidate":  "Bring the eyebrows down considerably and open the jaw considerably, with maximum lowering of the cheeks and no change to the eyes.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  77,
+                       "base_id":  "base-48575638617a282db35d2ce8",
+                       "split":  "Val",
+                       "original":  "do not change the eyebrows and moderately widen the mouth and slightly open the jaw and raise the cheeks much.",
+                       "candidate":  "Moderately broaden the mouth, open the jaw a bit, and raise the cheeks a lot; leave the brows alone.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  81,
+                       "base_id":  "base-16856faa9b74a3f2bee69031",
+                       "split":  "Val",
+                       "original":  "moderately lower the eyebrows and moderately open the eyes and slightly reduce the smile.",
+                       "candidate":  "Moderately lower the eyebrows and moderately open the eyes, with a slight reduction in smile strength.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  85,
+                       "base_id":  "base-dc9503c98b959ce1f7c4e390",
+                       "split":  "Val",
+                       "original":  "moderately lower the eyebrows and moderately open the eyes and maximally lower the cheeks.",
+                       "candidate":  "Give the brows a moderate lowering and the eyes a moderate opening, and lower the cheeks as far as possible.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  88,
+                       "base_id":  "base-314d81fe358463c619983608",
+                       "split":  "Val",
+                       "original":  "please widen the mouth slightly and keep the smile unchanged and close the jaw and lower the cheeks much.",
+                       "candidate":  "Widen the mouth a little and moderately close the jaw; lower the cheeks considerably while preserving the smile.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  92,
+                       "base_id":  "base-e1345ff14718222a7bf3875a",
+                       "split":  "Val",
+                       "original":  "please lower the eyebrows slightly and open the eyes and strengthen the smile and keep the jaw unchanged.",
+                       "candidate":  "Please lower the eyebrows slightly, open the eyes moderately, and strengthen the smile moderately; preserve the jaw.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  96,
+                       "base_id":  "base-62c8bf9a4cbd7d66a0a8b1ca",
+                       "split":  "Val",
+                       "original":  "please lower the eyebrows slightly and keep the mouth unchanged and strengthen the smile much and open the jaw slightly.",
+                       "candidate":  "Leave the mouth as it is, lower the brows a bit, strengthen the smile a lot, and open the jaw a bit.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  100,
+                       "base_id":  "base-07dc2153a7a886e4248ea1ff",
+                       "split":  "Test-ID",
+                       "original":  "slightly raise the eyebrows and close the eyes much and do not change the mouth and maximally strengthen the smile.",
+                       "candidate":  "Keep the mouth unchanged, lift the eyebrows a little, close the eyes a lot, and give the smile its maximum increase.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  103,
+                       "base_id":  "base-1d7cf40a3967515ac28f1cca",
+                       "split":  "Test-ID",
+                       "original":  "maximally raise the eyebrows and close the eyes much and do not change the mouth and maximally strengthen the smile.",
+                       "candidate":  "Leave the mouth as it is. Lift the brows maximally, close the eyes considerably, and strengthen the smile maximally.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  107,
+                       "base_id":  "base-1183c8e7f7a748e292226674",
+                       "split":  "Test-ID",
+                       "original":  "maximally lower the eyebrows and do not change the eyes and maximally strengthen the smile and close the jaw much.",
+                       "candidate":  "Lower the eyebrows as much as possible and strengthen the smile as much as possible, then close the jaw considerably without changing the eyes.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  111,
+                       "base_id":  "base-5330bc5e119c0ea48db596d4",
+                       "split":  "Test-ID",
+                       "original":  "lower the eyebrows maximally and keep the mouth unchanged and strengthen the smile much.",
+                       "candidate":  "Leave the mouth alone, lower the eyebrows to the maximum, and give the smile a considerable increase in strength.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  114,
+                       "base_id":  "base-9e20128753182f14abb1a525",
+                       "split":  "Test-ID",
+                       "original":  "please keep the eyebrows unchanged and narrow the mouth much and reduce the smile and close the jaw maximally.",
+                       "candidate":  "The eyebrows should stay as they are; make the mouth considerably narrower, the smile moderately weaker, and the jaw maximally more closed.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  118,
+                       "base_id":  "base-fd031510cb2ef910938df6d5",
+                       "split":  "Test-ID",
+                       "original":  "raise the eyebrows much and keep the mouth unchanged and open the jaw maximally and raise the cheeks moderately.",
+                       "candidate":  "Give the eyebrows a considerable lift and the cheeks a moderate lift. Open the jaw to the maximum while preserving the mouth.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  122,
+                       "base_id":  "base-906c667a042bd4aa289fdc6e",
+                       "split":  "Test-ID",
+                       "original":  "please raise the eyebrows much and keep the eyes unchanged and strengthen the smile maximally and open the jaw slightly.",
+                       "candidate":  "Raise the eyebrows a lot and strengthen the smile to the maximum. Open the jaw a bit but leave the eyes alone.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  125,
+                       "base_id":  "base-21c4f4387017a2489dc2c292",
+                       "split":  "Test-ID",
+                       "original":  "please lower the eyebrows and close the jaw maximally and lower the cheeks slightly.",
+                       "candidate":  "Moderately lower the brows, maximally close the jaw, and bring the cheeks down a bit.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  129,
+                       "base_id":  "base-f6ce2362ad1690db9cc37b3b",
+                       "split":  "Test-ID",
+                       "original":  "moderately raise the eyebrows and do not change the mouth and slightly reduce the smile and open the jaw much.",
+                       "candidate":  "Leave the mouth as it is while moderately lifting the eyebrows, slightly reducing the smile, and considerably opening the jaw.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  133,
+                       "base_id":  "base-acc24c8c312bf32afca04669",
+                       "split":  "Test-ID",
+                       "original":  "open the eyes moderately and narrow the mouth maximally and strengthen the smile slightly.",
+                       "candidate":  "Increase eye openness moderately, narrow the mouth to the maximum, and make the smile slightly stronger.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  137,
+                       "base_id":  "base-6ec92e0d696c3523316b3247",
+                       "split":  "Test-ID",
+                       "original":  "please lower the eyebrows and raise the cheeks slightly.",
+                       "candidate":  "Lower the eyebrows moderately while lifting the cheeks a bit.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  140,
+                       "base_id":  "base-ad19794840c35e28a3eccdde",
+                       "split":  "Test-ID",
+                       "original":  "raise the eyebrows slightly and close the eyes moderately and reduce the smile maximally.",
+                       "candidate":  "Lift the brows slightly, moderately close the eyes, and reduce the smile as much as possible.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  144,
+                       "base_id":  "base-5101ecb90217e1ed43b91c03",
+                       "split":  "Test-ID",
+                       "original":  "lower the eyebrows slightly and close the eyes moderately and reduce the smile moderately.",
+                       "candidate":  "Lower the brows a little while moderately closing the eyes and moderately weakening the smile.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  148,
+                       "base_id":  "base-db22bc8d8ca432212aa3c274",
+                       "split":  "Test-ID",
+                       "original":  "slightly reduce the smile and maximally close the jaw and do not change the cheeks.",
+                       "candidate":  "Keep the cheeks unchanged, weaken the smile a bit, and close the jaw as much as possible.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  151,
+                       "base_id":  "base-9e49e79ac0b24663a810bf6f",
+                       "split":  "Test-ID",
+                       "original":  "maximally reduce the smile and maximally close the jaw and do not change the cheeks.",
+                       "candidate":  "Leave the cheeks unchanged and take both smile reduction and jaw closing as far as possible.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  155,
+                       "base_id":  "base-a551ef18140b23cdc804675b",
+                       "split":  "Test-ID",
+                       "original":  "lower the eyebrows maximally and open the eyes moderately and lower the cheeks slightly.",
+                       "candidate":  "Lower the eyebrows as far as possible, moderately increase eye openness, and slightly lower the cheeks.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  159,
+                       "base_id":  "base-ee86dc4125cb8cc65c652c22",
+                       "split":  "Test-ID",
+                       "original":  "please keep the eyes unchanged and widen the mouth maximally and reduce the smile maximally and close the jaw maximally.",
+                       "candidate":  "Preserve the eyes and apply the maximum change to each of these: widen the mouth, reduce the smile, and close the jaw.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  162,
+                       "base_id":  "base-19678d136ac436baf4bcb8ca",
+                       "split":  "Test-ID",
+                       "original":  "open the eyes much and slightly widen the mouth and moderately reduce the smile.",
+                       "candidate":  "Give the eyes a considerable opening and the mouth a slight widening, then reduce the smile moderately.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  166,
+                       "base_id":  "base-1d14fc535c1c942a1f466d44",
+                       "split":  "Test-ID",
+                       "original":  "keep the eyes unchanged and widen the mouth much and close the jaw much and raise the cheeks much.",
+                       "candidate":  "Make the mouth much wider, the jaw much more closed, and the cheeks much higher, without changing the eyes.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  170,
+                       "base_id":  "base-e19d4eff57d248a19809c100",
+                       "split":  "Test-ID",
+                       "original":  "please raise the eyebrows much and strengthen the smile much and keep the jaw unchanged.",
+                       "candidate":  "Preserve the jaw while raising the eyebrows a lot and making the smile a lot stronger.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  174,
+                       "base_id":  "base-68c820d0c97093b457af8950",
+                       "split":  "Test-ID",
+                       "original":  "open the eyes much and narrow the mouth slightly and keep the smile unchanged and raise the cheeks slightly.",
+                       "candidate":  "The smile should stay as it is. Open the eyes considerably, make the mouth a little narrower, and lift the cheeks a little.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  177,
+                       "base_id":  "base-db90a5848c9ff050be252ff0",
+                       "split":  "Test-ID",
+                       "original":  "keep the mouth unchanged and open the jaw moderately and raise the cheeks slightly.",
+                       "candidate":  "Open the jaw moderately and lift the cheeks a little, with the mouth remaining unchanged.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  181,
+                       "base_id":  "base-d63555c6bb8fef0e80131b82",
+                       "split":  "Test-ID",
+                       "original":  "raise the eyebrows moderately and keep the mouth unchanged and reduce the smile moderately and open the jaw maximally.",
+                       "candidate":  "Leave the mouth unchanged while moderately lifting the brows, moderately reducing the smile, and maximally opening the jaw.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  185,
+                       "base_id":  "base-3072a71a1e1cef8adb23a003",
+                       "split":  "Test-ID",
+                       "original":  "please close the eyes and narrow the mouth much and lower the cheeks.",
+                       "candidate":  "Moderately close the eyes and moderately lower the cheeks, with a considerable narrowing of the mouth.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  188,
+                       "base_id":  "base-fb71f7143ac7f6e410ebde8a",
+                       "split":  "Test-ID",
+                       "original":  "keep the eyebrows unchanged and close the eyes slightly and widen the mouth maximally and strengthen the smile moderately.",
+                       "candidate":  "Keep the eyebrows unchanged and close the eyes a little; widen the mouth as much as possible and strengthen the smile moderately.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  192,
+                       "base_id":  "base-764671a994ba42258633d67c",
+                       "split":  "Test-ID",
+                       "original":  "lower the eyebrows slightly and close the eyes much and keep the jaw unchanged.",
+                       "candidate":  "Lower the brows a little and close the eyes considerably, keeping the jaw unchanged.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  196,
+                       "base_id":  "base-3f7f770076c4d8187befc4f9",
+                       "split":  "Test-ID",
+                       "original":  "slightly lower the eyebrows and maximally close the eyes and do not change the mouth and maximally lower the cheeks.",
+                       "candidate":  "Slightly lower the eyebrows, maximally close the eyes, and maximally lower the cheeks, preserving the mouth.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  200,
+                       "base_id":  "base-7359fb9bbe0369e1551d30a0",
+                       "split":  "Test-Comp",
+                       "original":  "slightly raise the eyebrows and moderately narrow the mouth and do not change the cheeks.",
+                       "candidate":  "Give the brows a slight lift and the mouth a moderate narrowing, leaving the cheeks unchanged.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  203,
+                       "base_id":  "base-445f8638706c8e79d163e664",
+                       "split":  "Test-Comp",
+                       "original":  "maximally raise the eyebrows and moderately narrow the mouth and do not change the cheeks.",
+                       "candidate":  "Lift the brows as much as possible, moderately narrow the mouth, and preserve the cheeks.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  207,
+                       "base_id":  "base-85e9a6ce7a4aec04337f2445",
+                       "split":  "Test-Comp",
+                       "original":  "maximally close the eyes and do not change the mouth and moderately open the jaw.",
+                       "candidate":  "Keep the mouth unchanged while closing the eyes maximally and opening the jaw moderately.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  211,
+                       "base_id":  "base-e34059e38da8b65d6c7131cc",
+                       "split":  "Test-Comp",
+                       "original":  "maximally reduce the smile and do not change the jaw and slightly lower the cheeks.",
+                       "candidate":  "Keep the jaw unchanged, reduce smile strength as much as possible, and give the cheeks a slight lowering.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  214,
+                       "base_id":  "base-4e2f26ffa260d7d70169b31a",
+                       "split":  "Test-Comp",
+                       "original":  "lower the eyebrows much and widen the mouth much and do not change the jaw.",
+                       "candidate":  "Bring the brows much lower and make the mouth much wider; preserve the jaw.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  218,
+                       "base_id":  "base-20dab33b2171766f2dcb040a",
+                       "split":  "Test-Comp",
+                       "original":  "raise the eyebrows much and narrow the mouth much.",
+                       "candidate":  "Raise the eyebrows a lot while reducing the mouth\u0027s width a lot.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  222,
+                       "base_id":  "base-75a7cd62c5beea9338a4c06a",
+                       "split":  "Test-Comp",
+                       "original":  "please raise the eyebrows much and narrow the mouth maximally and keep the smile unchanged.",
+                       "candidate":  "Lift the eyebrows considerably, narrow the mouth maximally, and leave the smile as it is.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  225,
+                       "base_id":  "base-26f70565f754bb68bad2b32b",
+                       "split":  "Test-Comp",
+                       "original":  "lower the eyebrows moderately and keep the eyes unchanged and widen the mouth slightly.",
+                       "candidate":  "Keep the eyes as they are while moderately lowering the brows and slightly broadening the mouth.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  229,
+                       "base_id":  "base-74ef282d6c433045b322df85",
+                       "split":  "Test-Comp",
+                       "original":  "moderately close the eyes and close the jaw much and do not change the cheeks.",
+                       "candidate":  "Moderately close the eyes, considerably close the jaw, and preserve the cheeks.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  233,
+                       "base_id":  "base-e0b8724fc7d41039b0f5a1f8",
+                       "split":  "Test-Comp",
+                       "original":  "close the eyes moderately and open the jaw moderately and keep the cheeks unchanged.",
+                       "candidate":  "Keep the cheeks as they are; moderately close the eyes and moderately open the jaw.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  237,
+                       "base_id":  "base-54705bfb886f8223783e5bdf",
+                       "split":  "Test-Comp",
+                       "original":  "please close the eyes and close the jaw slightly.",
+                       "candidate":  "Close the eyes moderately and bring the jaw a little closer to closed.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  240,
+                       "base_id":  "base-8b2002b8dcb7b944560ab1b8",
+                       "split":  "Test-Comp",
+                       "original":  "close the eyes slightly and keep the smile unchanged and close the jaw much.",
+                       "candidate":  "Leave the smile alone, close the eyes a bit, and close the jaw a lot.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  244,
+                       "base_id":  "base-966d4b59ad7a9a1e6858d503",
+                       "split":  "Test-Comp",
+                       "original":  "slightly lower the eyebrows and narrow the mouth much and do not change the cheeks.",
+                       "candidate":  "Keep the cheeks unchanged, lower the brows a little, and make the mouth much narrower.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  248,
+                       "base_id":  "base-badffadd9012e69edb6c9c30",
+                       "split":  "Test-Comp",
+                       "original":  "slightly reduce the smile and do not change the jaw and moderately lower the cheeks.",
+                       "candidate":  "Reduce smile strength a little and lower the cheeks moderately, with no change to the jaw.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  251,
+                       "base_id":  "base-61c74e8d2b52f761892cc692",
+                       "split":  "Test-Comp",
+                       "original":  "maximally reduce the smile and do not change the jaw and moderately lower the cheeks.",
+                       "candidate":  "Reduce the smile to the maximum extent and moderately lower the cheeks; preserve the jaw.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  255,
+                       "base_id":  "base-4e24ce26dd4087b4337a930e",
+                       "split":  "Test-Comp",
+                       "original":  "maximally raise the eyebrows and narrow the mouth much and do not change the jaw.",
+                       "candidate":  "Lift the eyebrows as much as possible, reduce mouth width considerably, and preserve the jaw.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  259,
+                       "base_id":  "base-9f73254ea9cadbfef79f06bf",
+                       "split":  "Test-Comp",
+                       "original":  "lower the eyebrows maximally and narrow the mouth much.",
+                       "candidate":  "Lower the eyebrows as much as possible and considerably reduce the width of the mouth.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  262,
+                       "base_id":  "base-1ff0e9a2da6731c01d6e8e1e",
+                       "split":  "Test-Comp",
+                       "original":  "strengthen the smile much and do not change the jaw and maximally lower the cheeks.",
+                       "candidate":  "Make the smile considerably stronger and lower the cheeks maximally, leaving the jaw alone.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  266,
+                       "base_id":  "base-93527966ffd862a1d1fcdc73",
+                       "split":  "Test-Comp",
+                       "original":  "raise the eyebrows much and do not change the eyes and slightly widen the mouth.",
+                       "candidate":  "Lift the eyebrows considerably and make the mouth a little wider; preserve the eyes.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  270,
+                       "base_id":  "base-4d9028631341a6346f0e96f1",
+                       "split":  "Test-Comp",
+                       "original":  "do not change the mouth and reduce the smile much and slightly lower the cheeks.",
+                       "candidate":  "Make the smile considerably weaker and the cheeks slightly lower, with no change to the mouth.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  274,
+                       "base_id":  "base-0a1ba1e522fe229cbc18afb2",
+                       "split":  "Test-Comp",
+                       "original":  "please open the eyes much and open the jaw slightly and keep the cheeks unchanged.",
+                       "candidate":  "Open the eyes considerably and the jaw slightly, without changing the cheeks.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  277,
+                       "base_id":  "base-1b7839d207fadfc03ca82cd7",
+                       "split":  "Test-Comp",
+                       "original":  "keep the eyes unchanged and strengthen the smile moderately and lower the cheeks moderately.",
+                       "candidate":  "Strengthen the smile moderately and bring the cheeks moderately lower, keeping the eyes unchanged.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  281,
+                       "base_id":  "base-a4692d6269bb9b7350632468",
+                       "split":  "Test-Comp",
+                       "original":  "keep the eyes unchanged and strengthen the smile moderately and raise the cheeks slightly.",
+                       "candidate":  "Moderately increase smile strength and slightly raise the cheeks. Leave the eyes as they are.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  285,
+                       "base_id":  "base-0904ea4ff1acbbf403ca9da7",
+                       "split":  "Test-Comp",
+                       "original":  "please keep the eyebrows unchanged and close the eyes and close the jaw maximally.",
+                       "candidate":  "Close the eyes moderately and the jaw maximally, with the eyebrows unchanged.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  288,
+                       "base_id":  "base-fe8255de4c068f930dbc5415",
+                       "split":  "Test-Comp",
+                       "original":  "keep the mouth unchanged and strengthen the smile slightly and lower the cheeks much.",
+                       "candidate":  "Leave the mouth unchanged, slightly strengthen the smile, and considerably lower the cheeks.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  292,
+                       "base_id":  "base-b9af56cfa6d7cf30c6c70865",
+                       "split":  "Test-Comp",
+                       "original":  "slightly strengthen the smile and do not change the jaw and raise the cheeks much.",
+                       "candidate":  "Keep the jaw unchanged while increasing smile strength a little and raising the cheeks a lot.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   },
+                   {
+                       "shard":  "heldout",
+                       "source_index":  296,
+                       "base_id":  "base-7ac79dbec5c980bc3dced51d",
+                       "split":  "Test-Comp",
+                       "original":  "please lower the eyebrows slightly and narrow the mouth much and keep the jaw unchanged.",
+                       "candidate":  "Slightly lower the eyebrows and considerably narrow the mouth, with the jaw unchanged.",
+                       "ai_review_status":  "no_definite_meaning_mismatch_identified_AI_only"
+                   }
+               ],
+    "findings":  [
+                     {
+                         "base_id":  "base-a32d79bc1f33ddf6d4d9f405",
+                         "category":  "shared_intensity_modifier_scope",
+                         "severity":  "review_recommended",
+                         "original":  "do not change the eyebrows and slightly close the eyes and maximally widen the mouth and maximally raise the cheeks.",
+                         "candidate":  "Keep the eyebrows as they are, close the eyes a little, and maximally widen the mouth and raise the cheeks.",
+                         "concern":  "A single intensity adverb precedes multiple coordinated verbs. The intended shared scope is plausible, but a human should verify that it applies to every edited target.",
+                         "action":  "Human reviewer should confirm shared scope or request explicit modifier repetition before approval."
+                     },
+                     {
+                         "base_id":  "base-a5bd60292dc9029e9a49ac81",
+                         "category":  "shared_intensity_modifier_scope",
+                         "severity":  "review_recommended",
+                         "original":  "please widen the mouth maximally and strengthen the smile maximally and close the jaw and keep the cheeks unchanged.",
+                         "candidate":  "Maximally widen the mouth and strengthen the smile, close the jaw moderately, and keep the cheeks as they are.",
+                         "concern":  "A single intensity adverb precedes multiple coordinated verbs. The intended shared scope is plausible, but a human should verify that it applies to every edited target.",
+                         "action":  "Human reviewer should confirm shared scope or request explicit modifier repetition before approval."
+                     },
+                     {
+                         "base_id":  "base-4e37b0fca18feb88f7596459",
+                         "category":  "shared_intensity_modifier_scope",
+                         "severity":  "review_recommended",
+                         "original":  "widen the mouth much and do not change the smile and open the jaw much and maximally lower the cheeks.",
+                         "candidate":  "Preserve the smile while considerably widening the mouth and opening the jaw, and maximally lowering the cheeks.",
+                         "concern":  "A single intensity adverb precedes multiple coordinated verbs. The intended shared scope is plausible, but a human should verify that it applies to every edited target.",
+                         "action":  "Human reviewer should confirm shared scope or request explicit modifier repetition before approval."
+                     },
+                     {
+                         "base_id":  "base-9464175e8f094bd2e765d827",
+                         "category":  "shared_intensity_modifier_scope",
+                         "severity":  "review_recommended",
+                         "original":  "please close the eyes and narrow the mouth and strengthen the smile much and keep the cheeks unchanged.",
+                         "candidate":  "Moderately close the eyes and narrow the mouth, strengthen the smile considerably, and preserve the cheeks.",
+                         "concern":  "A single intensity adverb precedes multiple coordinated verbs. The intended shared scope is plausible, but a human should verify that it applies to every edited target.",
+                         "action":  "Human reviewer should confirm shared scope or request explicit modifier repetition before approval."
+                     },
+                     {
+                         "base_id":  "base-a98a62e80777dd90958ae447",
+                         "category":  "shared_intensity_modifier_scope",
+                         "severity":  "review_recommended",
+                         "original":  "close the eyes maximally and widen the mouth moderately and reduce the smile maximally and keep the cheeks unchanged.",
+                         "candidate":  "Maximally close the eyes and reduce the smile, moderately widen the mouth, and leave the cheeks as they are.",
+                         "concern":  "A single intensity adverb precedes multiple coordinated verbs. The intended shared scope is plausible, but a human should verify that it applies to every edited target.",
+                         "action":  "Human reviewer should confirm shared scope or request explicit modifier repetition before approval."
+                     },
+                     {
+                         "base_id":  "base-68ca959511e2186974d6cec7",
+                         "category":  "shared_intensity_modifier_scope",
+                         "severity":  "review_recommended",
+                         "original":  "maximally narrow the mouth and moderately strengthen the smile and moderately close the jaw and do not change the cheeks.",
+                         "candidate":  "Reduce mouth width maximally while moderately strengthening the smile and closing the jaw, without modifying the cheeks.",
+                         "concern":  "A single intensity adverb precedes multiple coordinated verbs. The intended shared scope is plausible, but a human should verify that it applies to every edited target.",
+                         "action":  "Human reviewer should confirm shared scope or request explicit modifier repetition before approval."
+                     }
+                 ],
+    "review_date":  "2026-11-23",
+    "reviewer_role":  "/root/paraphrase_qc",
+    "coverage":  {
+                     "Train":  80,
+                     "Val":  27,
+                     "Test-ID":  27,
+                     "Test-Comp":  27
+                 },
+    "definite_meaning_mismatches_identified":  0,
+    "human_scope_review_flags":  6,
+    "human_verified_count":  0,
+    "limits":  [
+                   "Only161 of1100 candidates sampled",
+                   "AI review is not manual human verification",
+                   "No model predictions were inspected and no model changes were proposed",
+                   "Inherited labels remain proposed; all1100 need genuine human review",
+                   "Scope flags indicate ambiguity risk rather than demonstrated wrong labels"
+               ]
+}

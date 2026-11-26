@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "data_version": "candidate-v1",
+  "status": "coordinator_frozen_operational_spec_not_human_review",
+  "seed": 20261123,
+  "attribute_order": ["eyebrow_elevation", "eye_openness", "mouth_width", "smile_intensity", "jaw_opening", "cheek_raise"],
+  "magnitudes": [0.25, 0.5, 0.75, 1.0],
+  "default_magnitude": 0.5,
+  "holdout_modified_sets": [[0, 2], [1, 4], [3, 5]],
+  "containment_policy": "No Train, Val or Test-ID modified set contains any holdout set",
+  "composition_key": "Sorted modified attribute indices joined with +; preservation encoded separately",
+  "base_counts": {"Train": 800, "Val": 100, "Test-ID": 100, "Test-Comp": 100},
+  "human_target": [150, 200],
+  "human_collected": 0,
+  "paraphrase_reviewed": 0,
+  "release_eligible": false,
+  "annotation_policy": "Signed semantic controls; explicit preservation=zero with preserved mask; ambiguous negated directions, contradictory clauses, unsupported scope and smile-width ambiguity excluded pending adjudication",
+  "primitive_policy": "Every attribute/direction/magnitude occurs in Train",
+  "template_policy": "Template families overlap across splits; no template-generalization claim"
+}

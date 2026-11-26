@@ -1,0 +1,14 @@
+{
+  "source": "C:\\SFU Grad\\Fall 2026\\CMPT 713 - NLP\\Project\\CelebA-Dialog (HQ)\\text\\request_annotated_hq.json",
+  "source_sha256": "255ece05947cb9eaf95afbf20b46fd879e86fc34dd4f3e710a8f725f00ad1892",
+  "records": 6909,
+  "request_modes": {
+    "target": 2332,
+    "change_indefinite": 2260,
+    "change_definite": 2317
+  },
+  "six_control_labels_generated": false,
+  "included_in_project_train_or_test": false,
+  "purpose": "Supplementary vocabulary and annotation-design reference; original degree/target fields retained verbatim",
+  "limits": "Source smiling degree is not a signed change from our neutral reference; do not rescale into gold y without a separate validated protocol."
+}

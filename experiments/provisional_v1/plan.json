@@ -1,0 +1,93 @@
+{
+  "status": "frozen_before_training",
+  "official_experiment": false,
+  "runs": [
+    {
+      "name": "B_seed13",
+      "config": "experiments\\provisional_v1\\configs\\B_seed13.json",
+      "config_sha256": "e4c710e9466afe6cf52fe64b765e4af47ae06c8388b45754ff2c914659487382",
+      "lambda_value": 0.0
+    },
+    {
+      "name": "B_seed42",
+      "config": "experiments\\provisional_v1\\configs\\B_seed42.json",
+      "config_sha256": "fcf9a1fa2608ee0d1cf9418c2c689297618ce21cd74f6bc1b6935fc9b4ed9d86",
+      "lambda_value": 0.0
+    },
+    {
+      "name": "B_seed2026",
+      "config": "experiments\\provisional_v1\\configs\\B_seed2026.json",
+      "config_sha256": "0d626c547eb8f1f1fcd010b879a22325d7e240d977adc608de008048958de10e",
+      "lambda_value": 0.0
+    },
+    {
+      "name": "C_lambda0.1_seed13",
+      "config": "experiments\\provisional_v1\\configs\\C_lambda0.1_seed13.json",
+      "config_sha256": "92580d315435ade197cf16036c0bfe95cffa2a1b0d11dba955d51e14b47314eb",
+      "lambda_value": 0.1
+    },
+    {
+      "name": "C_lambda0.1_seed42",
+      "config": "experiments\\provisional_v1\\configs\\C_lambda0.1_seed42.json",
+      "config_sha256": "134c8bfa0d85e94e0aa67ed9233ea630c744b4c8c84fe1b904ec41599647b785",
+      "lambda_value": 0.1
+    },
+    {
+      "name": "C_lambda0.1_seed2026",
+      "config": "experiments\\provisional_v1\\configs\\C_lambda0.1_seed2026.json",
+      "config_sha256": "456cc7f462febe1c87194713a0c905ab2623ba6249920ffa42072212e477c851",
+      "lambda_value": 0.1
+    },
+    {
+      "name": "C_lambda0.5_seed13",
+      "config": "experiments\\provisional_v1\\configs\\C_lambda0.5_seed13.json",
+      "config_sha256": "2b9a41dca540f58a6bf46012c1feae388c832f16662ff2097555abe98db492b6",
+      "lambda_value": 0.5
+    },
+    {
+      "name": "C_lambda0.5_seed42",
+      "config": "experiments\\provisional_v1\\configs\\C_lambda0.5_seed42.json",
+      "config_sha256": "13b9d15ad82cd09317c87f2bd3afe826cf3b86d4c4cda25de1ce892fc82954f6",
+      "lambda_value": 0.5
+    },
+    {
+      "name": "C_lambda0.5_seed2026",
+      "config": "experiments\\provisional_v1\\configs\\C_lambda0.5_seed2026.json",
+      "config_sha256": "e8b5431566b58a516f2fc25dd896d8ce73df1904cf1ba589438f39d2300ab284",
+      "lambda_value": 0.5
+    },
+    {
+      "name": "C_lambda1_seed13",
+      "config": "experiments\\provisional_v1\\configs\\C_lambda1_seed13.json",
+      "config_sha256": "ba10232fcb6461d6e33e777eeec69cc9ce92afef44f6688fe645268dcf79fdf0",
+      "lambda_value": 1.0
+    },
+    {
+      "name": "C_lambda1_seed42",
+      "config": "experiments\\provisional_v1\\configs\\C_lambda1_seed42.json",
+      "config_sha256": "ea255c90bf9c60a1d08af812525099251c8e637ae3cc78a4038032ba3b3fc8da",
+      "lambda_value": 1.0
+    },
+    {
+      "name": "C_lambda1_seed2026",
+      "config": "experiments\\provisional_v1\\configs\\C_lambda1_seed2026.json",
+      "config_sha256": "6fb69f58361e9289c91c83a55c3d970c71fb68e5027876f2ed7efec434e1dfaa",
+      "lambda_value": 1.0
+    }
+  ],
+  "code_sha256": {
+    "models/model_b/train.py": "0ae00f178df7d35b9ba381c46e8c364eb3638f6bb4b86be18721e03bb56fe324",
+    "models/model_b/model.py": "e25f6a2dab74c757c2734cea8a8cb277c156950f59a6748636023424e911a995",
+    "models/model_b/data.py": "4e6502c36ee5acb2eecec1ea340a0a50c10922731bab69e6b196d177d135d611",
+    "models/model_b/provisional_data.py": "48f437061ac92b495c88c3bc38c3ea5a12c4ff5465b75073b5af3bfa1b300851",
+    "models/model_c/objective.py": "f9cfd00fe9b2e53dbe4896ada2a9f925231aaa6a91536986209317934db73380"
+  },
+  "manifest_sha256": "5dff812c0f69709af673c9fbd16cb67847596f3a2b1e8ca637b48ce53a6fffae",
+  "review_counts": {
+    "pending": 1100
+  },
+  "checkpoint_selection": "minimum Val MAE, earliest exact tie",
+  "lambda_selection": "mean best-checkpoint Val MAE across three seeds; ties mean Val pair squared distance then smaller lambda",
+  "caveat": "Unreviewed paraphrases; no Test-Human; validation diagnostics are provisional",
+  "created_at_utc": "2026-11-23T22:49:53.460546+00:00"
+}

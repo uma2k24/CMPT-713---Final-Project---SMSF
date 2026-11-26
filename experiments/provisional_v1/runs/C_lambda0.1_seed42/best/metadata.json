@@ -1,0 +1,95 @@
+{
+  "config": {
+    "status": "authorized_provisional_training",
+    "pretrained_model_id": "google-t5/t5-base",
+    "pretrained_revision": "a9723ea7f1b39c1eae772870f3b547bf6ef7e6c1",
+    "revision_provenance": "Exact pinned pretrained revision cached and preflight checked",
+    "release_manifest": "experiments/provisional_v1/data/manifest.json",
+    "output_dir": "experiments/provisional_v1/runs/C_lambda0.1_seed42",
+    "seed": 42,
+    "batch_size": 4,
+    "pair_batch_size": 4,
+    "max_length": 128,
+    "max_updates": 1000,
+    "validation_every": 100,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "gradient_clip_norm": 1.0,
+    "scheduler": "constant",
+    "precision": "float32",
+    "device": "cuda",
+    "local_files_only": true,
+    "cache_dir": "external/huggingface_cache",
+    "budget_status": "frozen_1000_updates_per_run",
+    "data_mode": "provisional_generated",
+    "acknowledge_unreviewed_data": true
+  },
+  "consistency_lambda": 0.1,
+  "data_mode": "provisional_generated",
+  "official_experiment": false,
+  "release_manifest_sha256": "5dff812c0f69709af673c9fbd16cb67847596f3a2b1e8ca637b48ce53a6fffae",
+  "release_manifest": {
+    "release_status": "unreleased_provisional",
+    "g2_complete": false,
+    "human_review_complete": false,
+    "test_human_collected": false,
+    "label_quality": "AST bases and unreviewed inherited paraphrase labels",
+    "files": {
+      "Train": {
+        "path": "train.jsonl",
+        "sha256": "8a2872f98b95d2f5f7f7050933ff158896618e0f82cacb242901cfb0978483a0",
+        "count": 1600
+      },
+      "Val": {
+        "path": "val.jsonl",
+        "sha256": "2c0628117fe5e25c5275fd7e1f56f4a5ba8895e3b221213ffac5cd19be091624",
+        "count": 200
+      }
+    },
+    "created_at_utc": "2026-11-23T22:49:53.316808+00:00",
+    "source_hashes": {
+      "data\\candidates\\v1\\train.jsonl": "fb388996a0241d0d247cc8b0631ac35a56b2efe1e7b5a66ec470a9a62b02f36c",
+      "data\\candidates\\v1\\val.jsonl": "7ad397bec69eb54a07d3f3b8249f4812f5e031f9165c5ffd6c41df8ef7a2d767",
+      "data\\paraphrases\\v1\\candidates.jsonl": "6fe3b4850e57157c29e666feba614881943ff5985b1609a456a39bb57506e814",
+      "data\\paraphrases\\v1\\paraphrase_pairs.jsonl": "d2f8720264df4b812622be6b150044ff177fa35e56bfd8263eec28400d724a1b"
+    },
+    "paraphrase_pairs": {
+      "path": "pairs.jsonl",
+      "sha256": "d8ff2596056877c9995c7b052e0915bceb02e00b61a332961e2c653393347431",
+      "count": 900
+    }
+  },
+  "environment": {
+    "python": "3.12.2",
+    "torch": "2.9.1+cu130",
+    "transformers": "5.3.0",
+    "numpy": "2.2.6",
+    "cuda_available": true,
+    "cuda_runtime": "13.0",
+    "gpu": "NVIDIA GeForce RTX 4070",
+    "gpu_memory_bytes": 12878086144
+  },
+  "status": "training",
+  "training_completed": false,
+  "last_step": 900,
+  "best_step": 800,
+  "best_validation_mae": 0.12505608797073364,
+  "elapsed_seconds": 112.68700000000536,
+  "model_version": "C-seed42-step1000",
+  "classification_threshold": 0.65,
+  "validation_micro_f1": 0.9948364888123924,
+  "validation_mae": 0.10891802608966827,
+  "selected_step": 1000,
+  "validation_pair_squared_distance": 0.07072622328996658,
+  "checkpoint_selection": "minimum_Val_MAE_earliest_exact_tie",
+  "threshold_selection": "Val_micro_F1_grid_0.05_to_0.95_step_0.05_tie_closest_0.5_then_lower",
+  "attribute_order": [
+    "eyebrow_elevation",
+    "eye_openness",
+    "mouth_width",
+    "smile_intensity",
+    "jaw_opening",
+    "cheek_raise"
+  ],
+  "schema_version": "1.0"
+}

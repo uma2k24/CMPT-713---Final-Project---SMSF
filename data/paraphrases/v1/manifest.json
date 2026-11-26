@@ -1,0 +1,46 @@
+{
+  "data_version": "paraphrase-candidates-v1",
+  "schema_version": "1.0",
+  "candidate_count": 1100,
+  "split_counts": {
+    "Train": 800,
+    "Val": 100,
+    "Test-ID": 100,
+    "Test-Comp": 100
+  },
+  "pair_count": 1100,
+  "human_verified_count": 0,
+  "release_eligible": false,
+  "structural_audit": "pass",
+  "meaning_equivalence": "unverified_pending_human_review",
+  "checks": [
+    "exactly_one_candidate_per_base",
+    "ids_complete_unique",
+    "nonempty_changed_text",
+    "no_cross_meaning_or_split_normalized_text_collisions",
+    "inherited_groups_and_splits"
+  ],
+  "source_files": [
+    {
+      "path": "paraphrases\\shards\\train_a_generated.jsonl",
+      "sha256": "bad0b5498a60077841a26f7a82f11b6795fc57ddb228ac829c5a8555bcc202d4"
+    },
+    {
+      "path": "paraphrases\\shards\\train_b_generated.jsonl",
+      "sha256": "b2cfe6e18027d76c63521ebeaa2c7ceb6375de66bb4d6f69a36f8a1537b6c383"
+    },
+    {
+      "path": "paraphrases\\shards\\heldout_generated.jsonl",
+      "sha256": "98a8b21f62664401f74bc868c6365e2ad025c2c11f2047d8f3d0b357d0720ed9"
+    }
+  ],
+  "files_sha256": {
+    "candidates.jsonl": "6fe3b4850e57157c29e666feba614881943ff5985b1609a456a39bb57506e814",
+    "paraphrase_pairs.jsonl": "d2f8720264df4b812622be6b150044ff177fa35e56bfd8263eec28400d724a1b",
+    "review_test_comp.csv": "11857ceff85495847db1557be0f82d991ae502a067bae7ebd841fb9674327c70",
+    "review_test_id.csv": "8b4a1c072430c3566e4bd738c932cca64727bc0136254b240a766cfe1ff5479f",
+    "review_train.csv": "8db98257521b6b6887ae51896eb30a11d8fb9d05116ec1fefb69071774cd2e00",
+    "review_val.csv": "3321a755bc33f9c7edb88152b10d89685214323e6113818ee418202a5950a200"
+  },
+  "notes": "Structural checks do not certify semantic equivalence. No paraphrase enters official training/evaluation before real review."
+}

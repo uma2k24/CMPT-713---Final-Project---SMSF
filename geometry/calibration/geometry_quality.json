@@ -1,0 +1,1052 @@
+[
+  {
+    "case": "axis_0_-1",
+    "minimum_individual_eyelid_gap_m": 0.00894700872554029,
+    "inner_lip_gap_m": 0.01425613897874347,
+    "max_vertex_displacement_m": 0.006630885537151836,
+    "neck_rms_displacement_m": 0.00024123229081665653
+  },
+  {
+    "case": "axis_0_-0.75",
+    "minimum_individual_eyelid_gap_m": 0.008944852562704345,
+    "inner_lip_gap_m": 0.01407340624081762,
+    "max_vertex_displacement_m": 0.004973169734891644,
+    "neck_rms_displacement_m": 0.00018092372314726794
+  },
+  {
+    "case": "axis_0_-0.5",
+    "minimum_individual_eyelid_gap_m": 0.008942692191863544,
+    "inner_lip_gap_m": 0.013879701402451393,
+    "max_vertex_displacement_m": 0.0033154427186381195,
+    "neck_rms_displacement_m": 0.00012061599526718153
+  },
+  {
+    "case": "axis_0_-0.25",
+    "minimum_individual_eyelid_gap_m": 0.008940534850721354,
+    "inner_lip_gap_m": 0.013685994833898846,
+    "max_vertex_displacement_m": 0.0016577307099352894,
+    "neck_rms_displacement_m": 6.030799445344928e-05
+  },
+  {
+    "case": "axis_0_0",
+    "minimum_individual_eyelid_gap_m": 0.008938376189425733,
+    "inner_lip_gap_m": 0.013492286574718876,
+    "max_vertex_displacement_m": 8.330041269325892e-09,
+    "neck_rms_displacement_m": 8.62390914114027e-11
+  },
+  {
+    "case": "axis_0_0.25",
+    "minimum_individual_eyelid_gap_m": 0.008936216999302055,
+    "inner_lip_gap_m": 0.013298577353332897,
+    "max_vertex_displacement_m": 0.0016577122415279719,
+    "neck_rms_displacement_m": 6.0308638371275504e-05
+  },
+  {
+    "case": "axis_0_0.5",
+    "minimum_individual_eyelid_gap_m": 0.008934059290766527,
+    "inner_lip_gap_m": 0.013104872468671772,
+    "max_vertex_displacement_m": 0.0033154390249564318,
+    "neck_rms_displacement_m": 0.00012061619469172539
+  },
+  {
+    "case": "axis_0_0.75",
+    "minimum_individual_eyelid_gap_m": 0.00893190070722633,
+    "inner_lip_gap_m": 0.012911164547704086,
+    "max_vertex_displacement_m": 0.004973169734891644,
+    "neck_rms_displacement_m": 0.0001809238854612399
+  },
+  {
+    "case": "axis_0_1",
+    "minimum_individual_eyelid_gap_m": 0.008929743122072235,
+    "inner_lip_gap_m": 0.012717456068022409,
+    "max_vertex_displacement_m": 0.006630885670100239,
+    "neck_rms_displacement_m": 0.00024123236879415122
+  },
+  {
+    "case": "axis_1_-1",
+    "minimum_individual_eyelid_gap_m": 0.007139343620984468,
+    "inner_lip_gap_m": 0.0134845368276051,
+    "max_vertex_displacement_m": 0.0015994998804237728,
+    "neck_rms_displacement_m": 4.585461229356026e-05
+  },
+  {
+    "case": "axis_1_-0.75",
+    "minimum_individual_eyelid_gap_m": 0.007600090793519268,
+    "inner_lip_gap_m": 0.013486473583483122,
+    "max_vertex_displacement_m": 0.0011996225748475136,
+    "neck_rms_displacement_m": 3.439067198532695e-05
+  },
+  {
+    "case": "axis_1_-0.5",
+    "minimum_individual_eyelid_gap_m": 0.008050832466554934,
+    "inner_lip_gap_m": 0.013488409545659975,
+    "max_vertex_displacement_m": 0.0007997565628001116,
+    "neck_rms_displacement_m": 2.2926877424454477e-05
+  },
+  {
+    "case": "axis_1_-0.25",
+    "minimum_individual_eyelid_gap_m": 0.008494604805332082,
+    "inner_lip_gap_m": 0.013490347517981456,
+    "max_vertex_displacement_m": 0.00039987730558343386,
+    "neck_rms_displacement_m": 1.1463589474752351e-05
+  },
+  {
+    "case": "axis_1_0",
+    "minimum_individual_eyelid_gap_m": 0.008938376189425733,
+    "inner_lip_gap_m": 0.013492286574718876,
+    "max_vertex_displacement_m": 8.330041269325892e-09,
+    "neck_rms_displacement_m": 8.62390914114027e-11
+  },
+  {
+    "case": "axis_1_0.25",
+    "minimum_individual_eyelid_gap_m": 0.009382147498174835,
+    "inner_lip_gap_m": 0.013494228264270852,
+    "max_vertex_displacement_m": 0.0003998790113665564,
+    "neck_rms_displacement_m": 1.1463780846205339e-05
+  },
+  {
+    "case": "axis_1_0.5",
+    "minimum_individual_eyelid_gap_m": 0.009825921241291856,
+    "inner_lip_gap_m": 0.013496161262880606,
+    "max_vertex_displacement_m": 0.0007997414605814538,
+    "neck_rms_displacement_m": 2.2927319717620497e-05
+  },
+  {
+    "case": "axis_1_0.75",
+    "minimum_individual_eyelid_gap_m": 0.010269692729961102,
+    "inner_lip_gap_m": 0.013498093578040049,
+    "max_vertex_displacement_m": 0.0011996225748475136,
+    "neck_rms_displacement_m": 3.43908806143535e-05
+  },
+  {
+    "case": "axis_1_1",
+    "minimum_individual_eyelid_gap_m": 0.010713466067611838,
+    "inner_lip_gap_m": 0.013500034039189479,
+    "max_vertex_displacement_m": 0.001599498023379113,
+    "neck_rms_displacement_m": 4.58546210586577e-05
+  },
+  {
+    "case": "axis_2_-1",
+    "minimum_individual_eyelid_gap_m": 0.008741653115471502,
+    "inner_lip_gap_m": 0.013890706174982809,
+    "max_vertex_displacement_m": 0.0035379743140489498,
+    "neck_rms_displacement_m": 0.00014658407579684702
+  },
+  {
+    "case": "axis_2_-0.75",
+    "minimum_individual_eyelid_gap_m": 0.008790833661110154,
+    "inner_lip_gap_m": 0.01379109704678972,
+    "max_vertex_displacement_m": 0.0026534803525641555,
+    "neck_rms_displacement_m": 0.00010993786831400649
+  },
+  {
+    "case": "axis_2_-0.5",
+    "minimum_individual_eyelid_gap_m": 0.008840014810921403,
+    "inner_lip_gap_m": 0.013691492827797247,
+    "max_vertex_displacement_m": 0.0017689863910826833,
+    "neck_rms_displacement_m": 7.329182937720447e-05
+  },
+  {
+    "case": "axis_2_-0.25",
+    "minimum_individual_eyelid_gap_m": 0.00888919582370722,
+    "inner_lip_gap_m": 0.013591895793143925,
+    "max_vertex_displacement_m": 0.0008844940116414795,
+    "neck_rms_displacement_m": 3.664609379020236e-05
+  },
+  {
+    "case": "axis_2_0",
+    "minimum_individual_eyelid_gap_m": 0.008938376189425733,
+    "inner_lip_gap_m": 0.013492286574718876,
+    "max_vertex_displacement_m": 8.330041269325892e-09,
+    "neck_rms_displacement_m": 8.62390914114027e-11
+  },
+  {
+    "case": "axis_2_0.25",
+    "minimum_individual_eyelid_gap_m": 0.008987556810408925,
+    "inner_lip_gap_m": 0.013392682335707506,
+    "max_vertex_displacement_m": 0.0008844940116414795,
+    "neck_rms_displacement_m": 3.664647103370286e-05
+  },
+  {
+    "case": "axis_2_0.5",
+    "minimum_individual_eyelid_gap_m": 0.009036736593953244,
+    "inner_lip_gap_m": 0.01329307467018044,
+    "max_vertex_displacement_m": 0.001768986114105304,
+    "neck_rms_displacement_m": 7.32921531098172e-05
+  },
+  {
+    "case": "axis_2_0.75",
+    "minimum_individual_eyelid_gap_m": 0.009085918926892499,
+    "inner_lip_gap_m": 0.013193466966418245,
+    "max_vertex_displacement_m": 0.0026534801759041204,
+    "neck_rms_displacement_m": 0.00010993834186591755
+  },
+  {
+    "case": "axis_2_1",
+    "minimum_individual_eyelid_gap_m": 0.009135099443300095,
+    "inner_lip_gap_m": 0.01309386248118434,
+    "max_vertex_displacement_m": 0.0035379741875455994,
+    "neck_rms_displacement_m": 0.00014658428789651813
+  },
+  {
+    "case": "axis_3_-1",
+    "minimum_individual_eyelid_gap_m": 0.008967933673675117,
+    "inner_lip_gap_m": 0.013374767163727291,
+    "max_vertex_displacement_m": 0.0027272892899659904,
+    "neck_rms_displacement_m": 0.00017079995571537038
+  },
+  {
+    "case": "axis_3_-0.75",
+    "minimum_individual_eyelid_gap_m": 0.008971534631569578,
+    "inner_lip_gap_m": 0.013404144648924483,
+    "max_vertex_displacement_m": 0.0020454681371934267,
+    "neck_rms_displacement_m": 0.00012809899755824287
+  },
+  {
+    "case": "axis_3_-0.5",
+    "minimum_individual_eyelid_gap_m": 0.00897513522956719,
+    "inner_lip_gap_m": 0.013433524011515076,
+    "max_vertex_displacement_m": 0.0013636395994279615,
+    "neck_rms_displacement_m": 8.540048808894509e-05
+  },
+  {
+    "case": "axis_3_-0.25",
+    "minimum_individual_eyelid_gap_m": 0.00897103703090462,
+    "inner_lip_gap_m": 0.013462907232147173,
+    "max_vertex_displacement_m": 0.0006818174602750716,
+    "neck_rms_displacement_m": 4.2700620827185546e-05
+  },
+  {
+    "case": "axis_3_0",
+    "minimum_individual_eyelid_gap_m": 0.008938376189425733,
+    "inner_lip_gap_m": 0.013492286574718876,
+    "max_vertex_displacement_m": 8.330041269325892e-09,
+    "neck_rms_displacement_m": 8.62390914114027e-11
+  },
+  {
+    "case": "axis_3_0.25",
+    "minimum_individual_eyelid_gap_m": 0.00890571484352808,
+    "inner_lip_gap_m": 0.013521664254141759,
+    "max_vertex_displacement_m": 0.0006818174602750716,
+    "neck_rms_displacement_m": 4.270042603707837e-05
+  },
+  {
+    "case": "axis_3_0.5",
+    "minimum_individual_eyelid_gap_m": 0.008873054133444951,
+    "inner_lip_gap_m": 0.013551039476714655,
+    "max_vertex_displacement_m": 0.0013636386130504486,
+    "neck_rms_displacement_m": 8.540039903769987e-05
+  },
+  {
+    "case": "axis_3_0.75",
+    "minimum_individual_eyelid_gap_m": 0.00884039393662249,
+    "inner_lip_gap_m": 0.013580424534702373,
+    "max_vertex_displacement_m": 0.0020454602590075305,
+    "neck_rms_displacement_m": 0.0001281010884533084
+  },
+  {
+    "case": "axis_3_1",
+    "minimum_individual_eyelid_gap_m": 0.008807732437624862,
+    "inner_lip_gap_m": 0.013609801492439837,
+    "max_vertex_displacement_m": 0.002727289290882555,
+    "neck_rms_displacement_m": 0.00017079988289367613
+  },
+  {
+    "case": "axis_4_-1",
+    "minimum_individual_eyelid_gap_m": 0.009031626817379755,
+    "inner_lip_gap_m": 0.00019999840275094355,
+    "max_vertex_displacement_m": 0.02305877923232472,
+    "neck_rms_displacement_m": 0.00428341057372494
+  },
+  {
+    "case": "axis_4_-0.75",
+    "minimum_individual_eyelid_gap_m": 0.009045739095724408,
+    "inner_lip_gap_m": 0.0008851769689342884,
+    "max_vertex_displacement_m": 0.017313750510184214,
+    "neck_rms_displacement_m": 0.0032083746211651267
+  },
+  {
+    "case": "axis_4_-0.5",
+    "minimum_individual_eyelid_gap_m": 0.009009722413143042,
+    "inner_lip_gap_m": 0.00518743576209077,
+    "max_vertex_displacement_m": 0.011555407586264492,
+    "neck_rms_displacement_m": 0.0021398877087420876
+  },
+  {
+    "case": "axis_4_-0.25",
+    "minimum_individual_eyelid_gap_m": 0.008973911760198322,
+    "inner_lip_gap_m": 0.00939260540979172,
+    "max_vertex_displacement_m": 0.005782983151638064,
+    "neck_rms_displacement_m": 0.00107021233899898
+  },
+  {
+    "case": "axis_4_0",
+    "minimum_individual_eyelid_gap_m": 0.008938376189425733,
+    "inner_lip_gap_m": 0.013492286574718876,
+    "max_vertex_displacement_m": 8.330041269325892e-09,
+    "neck_rms_displacement_m": 8.62390914114027e-11
+  },
+  {
+    "case": "axis_4_0.25",
+    "minimum_individual_eyelid_gap_m": 0.008903183691222963,
+    "inner_lip_gap_m": 0.017478444859564894,
+    "max_vertex_displacement_m": 0.005789973820374853,
+    "neck_rms_displacement_m": 0.0010700901275807761
+  },
+  {
+    "case": "axis_4_0.5",
+    "minimum_individual_eyelid_gap_m": 0.008868396564572504,
+    "inner_lip_gap_m": 0.021343470672403365,
+    "max_vertex_displacement_m": 0.011583333426997435,
+    "neck_rms_displacement_m": 0.002139396751360214
+  },
+  {
+    "case": "axis_4_0.75",
+    "minimum_individual_eyelid_gap_m": 0.008834072540818104,
+    "inner_lip_gap_m": 0.025080187621967516,
+    "max_vertex_displacement_m": 0.01737651603465999,
+    "neck_rms_displacement_m": 0.0032072646477196154
+  },
+  {
+    "case": "axis_4_1",
+    "minimum_individual_eyelid_gap_m": 0.008800255323517792,
+    "inner_lip_gap_m": 0.028681831017402487,
+    "max_vertex_displacement_m": 0.023165927003149542,
+    "neck_rms_displacement_m": 0.004273036597474047
+  },
+  {
+    "case": "axis_5_-1",
+    "minimum_individual_eyelid_gap_m": 0.009058256073884257,
+    "inner_lip_gap_m": 0.013455529744816334,
+    "max_vertex_displacement_m": 0.0016118533078613767,
+    "neck_rms_displacement_m": 9.476922076310508e-05
+  },
+  {
+    "case": "axis_5_-0.75",
+    "minimum_individual_eyelid_gap_m": 0.009028286595379506,
+    "inner_lip_gap_m": 0.01346472091092512,
+    "max_vertex_displacement_m": 0.001208887518362282,
+    "neck_rms_displacement_m": 7.107701664413182e-05
+  },
+  {
+    "case": "axis_5_-0.5",
+    "minimum_individual_eyelid_gap_m": 0.008998316512702161,
+    "inner_lip_gap_m": 0.013473910562371044,
+    "max_vertex_displacement_m": 0.0008059329962795094,
+    "neck_rms_displacement_m": 4.7384351462428055e-05
+  },
+  {
+    "case": "axis_5_-0.25",
+    "minimum_individual_eyelid_gap_m": 0.008968346529778643,
+    "inner_lip_gap_m": 0.013483100376064677,
+    "max_vertex_displacement_m": 0.0004029672359335907,
+    "neck_rms_displacement_m": 2.3691876479978125e-05
+  },
+  {
+    "case": "axis_5_0",
+    "minimum_individual_eyelid_gap_m": 0.008938376189425733,
+    "inner_lip_gap_m": 0.013492286574718876,
+    "max_vertex_displacement_m": 8.330041269325892e-09,
+    "neck_rms_displacement_m": 8.62390914114027e-11
+  },
+  {
+    "case": "axis_5_0.25",
+    "minimum_individual_eyelid_gap_m": 0.008908406737741147,
+    "inner_lip_gap_m": 0.013501471843145034,
+    "max_vertex_displacement_m": 0.0004029671436564376,
+    "neck_rms_displacement_m": 2.3692368855696105e-05
+  },
+  {
+    "case": "axis_5_0.5",
+    "minimum_individual_eyelid_gap_m": 0.008878436730408348,
+    "inner_lip_gap_m": 0.013510659941692996,
+    "max_vertex_displacement_m": 0.0008059209419005311,
+    "neck_rms_displacement_m": 4.738515771535907e-05
+  },
+  {
+    "case": "axis_5_0.75",
+    "minimum_individual_eyelid_gap_m": 0.008848466672140287,
+    "inner_lip_gap_m": 0.013519851360281464,
+    "max_vertex_displacement_m": 0.0012088891846073926,
+    "neck_rms_displacement_m": 7.107737343261302e-05
+  },
+  {
+    "case": "axis_5_1",
+    "minimum_individual_eyelid_gap_m": 0.008816646108256592,
+    "inner_lip_gap_m": 0.013529041101959356,
+    "max_vertex_displacement_m": 0.0016118563106062016,
+    "neck_rms_displacement_m": 9.476939620937569e-05
+  },
+  {
+    "case": "mixed_0",
+    "minimum_individual_eyelid_gap_m": 0.009034792240621158,
+    "inner_lip_gap_m": 0.014592727185923776,
+    "max_vertex_displacement_m": 0.004331741818239858,
+    "neck_rms_displacement_m": 0.0002736339848019422
+  },
+  {
+    "case": "mixed_1",
+    "minimum_individual_eyelid_gap_m": 0.007302662606545492,
+    "inner_lip_gap_m": 0.021204521892901465,
+    "max_vertex_displacement_m": 0.01199757277400776,
+    "neck_rms_displacement_m": 0.002253984213744241
+  },
+  {
+    "case": "mixed_2",
+    "minimum_individual_eyelid_gap_m": 0.00995362198786295,
+    "inner_lip_gap_m": 0.014790853033967419,
+    "max_vertex_displacement_m": 0.003404990421683421,
+    "neck_rms_displacement_m": 0.00029255720188828835
+  },
+  {
+    "case": "mixed_3",
+    "minimum_individual_eyelid_gap_m": 0.008816697037370216,
+    "inner_lip_gap_m": 0.006407498726294321,
+    "max_vertex_displacement_m": 0.008675233625942597,
+    "neck_rms_displacement_m": 0.0015769601998361703
+  },
+  {
+    "case": "mixed_4",
+    "minimum_individual_eyelid_gap_m": 0.009719044207821565,
+    "inner_lip_gap_m": 0.01075042091329332,
+    "max_vertex_displacement_m": 0.00447387041405713,
+    "neck_rms_displacement_m": 0.0008175019286540335
+  },
+  {
+    "case": "mixed_5",
+    "minimum_individual_eyelid_gap_m": 0.008673000356544561,
+    "inner_lip_gap_m": 0.01757814426614055,
+    "max_vertex_displacement_m": 0.005575715080685209,
+    "neck_rms_displacement_m": 0.0009587057990741603
+  },
+  {
+    "case": "mixed_6",
+    "minimum_individual_eyelid_gap_m": 0.007547167882576412,
+    "inner_lip_gap_m": 0.024809016064174308,
+    "max_vertex_displacement_m": 0.01639013114152746,
+    "neck_rms_displacement_m": 0.0030562387498266285
+  },
+  {
+    "case": "mixed_7",
+    "minimum_individual_eyelid_gap_m": 0.007428162382916541,
+    "inner_lip_gap_m": 0.014502328541886454,
+    "max_vertex_displacement_m": 0.004669734797996874,
+    "neck_rms_displacement_m": 0.00027047253037628923
+  },
+  {
+    "case": "mixed_8",
+    "minimum_individual_eyelid_gap_m": 0.007239647184344281,
+    "inner_lip_gap_m": 0.01617416432733431,
+    "max_vertex_displacement_m": 0.004995615927355011,
+    "neck_rms_displacement_m": 0.0005701360869057086
+  },
+  {
+    "case": "mixed_9",
+    "minimum_individual_eyelid_gap_m": 0.009099468090740036,
+    "inner_lip_gap_m": 0.00900478978269053,
+    "max_vertex_displacement_m": 0.0063489372227357,
+    "neck_rms_displacement_m": 0.001174870047494038
+  },
+  {
+    "case": "mixed_10",
+    "minimum_individual_eyelid_gap_m": 0.009892010999956995,
+    "inner_lip_gap_m": 0.016755712607391407,
+    "max_vertex_displacement_m": 0.006296602844005503,
+    "neck_rms_displacement_m": 0.0011232890463811899
+  },
+  {
+    "case": "mixed_11",
+    "minimum_individual_eyelid_gap_m": 0.008390087879625592,
+    "inner_lip_gap_m": 0.00161873895312592,
+    "max_vertex_displacement_m": 0.016080845797524845,
+    "neck_rms_displacement_m": 0.0028457799190473813
+  },
+  {
+    "case": "mixed_12",
+    "minimum_individual_eyelid_gap_m": 0.00975754739045014,
+    "inner_lip_gap_m": 0.0022558856735483065,
+    "max_vertex_displacement_m": 0.01631903832174587,
+    "neck_rms_displacement_m": 0.0030362537498293592
+  },
+  {
+    "case": "mixed_13",
+    "minimum_individual_eyelid_gap_m": 0.009811240523863531,
+    "inner_lip_gap_m": 0.0049945689525549425,
+    "max_vertex_displacement_m": 0.012370087205223585,
+    "neck_rms_displacement_m": 0.002327420356155345
+  },
+  {
+    "case": "mixed_14",
+    "minimum_individual_eyelid_gap_m": 0.007648051080949205,
+    "inner_lip_gap_m": 0.008943894538356298,
+    "max_vertex_displacement_m": 0.007305265775597916,
+    "neck_rms_displacement_m": 0.0013426688117165258
+  },
+  {
+    "case": "mixed_15",
+    "minimum_individual_eyelid_gap_m": 0.008786569713016418,
+    "inner_lip_gap_m": 0.00020000318975219034,
+    "max_vertex_displacement_m": 0.018847629058923742,
+    "neck_rms_displacement_m": 0.0034405063284693982
+  },
+  {
+    "case": "mixed_16",
+    "minimum_individual_eyelid_gap_m": 0.00904713874927825,
+    "inner_lip_gap_m": 0.00834761643307514,
+    "max_vertex_displacement_m": 0.008291711955882545,
+    "neck_rms_displacement_m": 0.0015522273699091536
+  },
+  {
+    "case": "mixed_17",
+    "minimum_individual_eyelid_gap_m": 0.007394314267494127,
+    "inner_lip_gap_m": 0.0021513377864125147,
+    "max_vertex_displacement_m": 0.015744338228005916,
+    "neck_rms_displacement_m": 0.0028983889370729266
+  },
+  {
+    "case": "mixed_18",
+    "minimum_individual_eyelid_gap_m": 0.010238880620334609,
+    "inner_lip_gap_m": 0.0013452575737941883,
+    "max_vertex_displacement_m": 0.017525095095368,
+    "neck_rms_displacement_m": 0.00322076867744464
+  },
+  {
+    "case": "mixed_19",
+    "minimum_individual_eyelid_gap_m": 0.008842169756955221,
+    "inner_lip_gap_m": 0.0001999970897397091,
+    "max_vertex_displacement_m": 0.020690530973638006,
+    "neck_rms_displacement_m": 0.003772039934413098
+  },
+  {
+    "case": "mixed_20",
+    "minimum_individual_eyelid_gap_m": 0.010513570903987624,
+    "inner_lip_gap_m": 0.018675049314906836,
+    "max_vertex_displacement_m": 0.007699254871768048,
+    "neck_rms_displacement_m": 0.0014963520894894994
+  },
+  {
+    "case": "mixed_21",
+    "minimum_individual_eyelid_gap_m": 0.008704774018605067,
+    "inner_lip_gap_m": 0.025147053623074997,
+    "max_vertex_displacement_m": 0.016925755223034192,
+    "neck_rms_displacement_m": 0.0030067469490278687
+  },
+  {
+    "case": "mixed_22",
+    "minimum_individual_eyelid_gap_m": 0.0073133090813539865,
+    "inner_lip_gap_m": 0.010722316701335388,
+    "max_vertex_displacement_m": 0.006489720882079159,
+    "neck_rms_displacement_m": 0.000512901172956324
+  },
+  {
+    "case": "mixed_23",
+    "minimum_individual_eyelid_gap_m": 0.008159921592528936,
+    "inner_lip_gap_m": 0.021830510223746658,
+    "max_vertex_displacement_m": 0.0132514813387602,
+    "neck_rms_displacement_m": 0.0024532881726967953
+  },
+  {
+    "case": "mixed_24",
+    "minimum_individual_eyelid_gap_m": 0.010238945955075664,
+    "inner_lip_gap_m": 0.019628901273048734,
+    "max_vertex_displacement_m": 0.007658831049429761,
+    "neck_rms_displacement_m": 0.0014320681362759416
+  },
+  {
+    "case": "mixed_25",
+    "minimum_individual_eyelid_gap_m": 0.007853568154307204,
+    "inner_lip_gap_m": 0.00020002204563941,
+    "max_vertex_displacement_m": 0.019675224039049803,
+    "neck_rms_displacement_m": 0.0037077701317111303
+  },
+  {
+    "case": "mixed_26",
+    "minimum_individual_eyelid_gap_m": 0.00923437436797887,
+    "inner_lip_gap_m": 0.003690381390462072,
+    "max_vertex_displacement_m": 0.012923707274172642,
+    "neck_rms_displacement_m": 0.002454149164074117
+  },
+  {
+    "case": "mixed_27",
+    "minimum_individual_eyelid_gap_m": 0.00821552583085642,
+    "inner_lip_gap_m": 0.015821449064863047,
+    "max_vertex_displacement_m": 0.0039604610937203025,
+    "neck_rms_displacement_m": 0.0007238346622037508
+  },
+  {
+    "case": "mixed_28",
+    "minimum_individual_eyelid_gap_m": 0.009448819578963309,
+    "inner_lip_gap_m": 0.017910101894071252,
+    "max_vertex_displacement_m": 0.006764975481500198,
+    "neck_rms_displacement_m": 0.0012721564140590978
+  },
+  {
+    "case": "mixed_29",
+    "minimum_individual_eyelid_gap_m": 0.010177833275990533,
+    "inner_lip_gap_m": 0.00019996752715494004,
+    "max_vertex_displacement_m": 0.020831751911249675,
+    "neck_rms_displacement_m": 0.0038499256455862747
+  },
+  {
+    "case": "mixed_30",
+    "minimum_individual_eyelid_gap_m": 0.009861283325614714,
+    "inner_lip_gap_m": 0.011346077096460613,
+    "max_vertex_displacement_m": 0.0043450578488705245,
+    "neck_rms_displacement_m": 0.0005752944243499127
+  },
+  {
+    "case": "mixed_31",
+    "minimum_individual_eyelid_gap_m": 0.009427019057831058,
+    "inner_lip_gap_m": 0.028069662697609805,
+    "max_vertex_displacement_m": 0.02239946418013662,
+    "neck_rms_displacement_m": 0.0042364299412166115
+  },
+  {
+    "case": "mixed_32",
+    "minimum_individual_eyelid_gap_m": 0.008742801375122181,
+    "inner_lip_gap_m": 0.00024623533328879676,
+    "max_vertex_displacement_m": 0.018216158544454315,
+    "neck_rms_displacement_m": 0.0033668077207101676
+  },
+  {
+    "case": "mixed_33",
+    "minimum_individual_eyelid_gap_m": 0.007451247461565055,
+    "inner_lip_gap_m": 0.021000198415474923,
+    "max_vertex_displacement_m": 0.010942639367191474,
+    "neck_rms_displacement_m": 0.0020119055056015633
+  },
+  {
+    "case": "mixed_34",
+    "minimum_individual_eyelid_gap_m": 0.010213424782266608,
+    "inner_lip_gap_m": 0.027525090006233377,
+    "max_vertex_displacement_m": 0.02295128455610509,
+    "neck_rms_displacement_m": 0.0042440339376980255
+  },
+  {
+    "case": "mixed_35",
+    "minimum_individual_eyelid_gap_m": 0.00873012551808855,
+    "inner_lip_gap_m": 0.017211118931747954,
+    "max_vertex_displacement_m": 0.005594517211479896,
+    "neck_rms_displacement_m": 0.000996149926493426
+  },
+  {
+    "case": "mixed_36",
+    "minimum_individual_eyelid_gap_m": 0.007777186603980954,
+    "inner_lip_gap_m": 0.021173557422352905,
+    "max_vertex_displacement_m": 0.012376590826299567,
+    "neck_rms_displacement_m": 0.0022976324681652266
+  },
+  {
+    "case": "mixed_37",
+    "minimum_individual_eyelid_gap_m": 0.007974105729498571,
+    "inner_lip_gap_m": 0.02819535708048236,
+    "max_vertex_displacement_m": 0.021511908407565387,
+    "neck_rms_displacement_m": 0.0039204137403524445
+  },
+  {
+    "case": "mixed_38",
+    "minimum_individual_eyelid_gap_m": 0.008469661522974944,
+    "inner_lip_gap_m": 0.027803630310516622,
+    "max_vertex_displacement_m": 0.020618687539563252,
+    "neck_rms_displacement_m": 0.003727907482703519
+  },
+  {
+    "case": "mixed_39",
+    "minimum_individual_eyelid_gap_m": 0.009367520039705809,
+    "inner_lip_gap_m": 0.022100510277606213,
+    "max_vertex_displacement_m": 0.012288230223071779,
+    "neck_rms_displacement_m": 0.002167795695840949
+  },
+  {
+    "case": "mixed_40",
+    "minimum_individual_eyelid_gap_m": 0.008445879761169672,
+    "inner_lip_gap_m": 0.02462020545316835,
+    "max_vertex_displacement_m": 0.016058703160288262,
+    "neck_rms_displacement_m": 0.002895630775949272
+  },
+  {
+    "case": "mixed_41",
+    "minimum_individual_eyelid_gap_m": 0.009726757110461056,
+    "inner_lip_gap_m": 0.00019999217584770745,
+    "max_vertex_displacement_m": 0.018367747446153947,
+    "neck_rms_displacement_m": 0.0033876978886124044
+  },
+  {
+    "case": "mixed_42",
+    "minimum_individual_eyelid_gap_m": 0.009932917241780324,
+    "inner_lip_gap_m": 0.010131663674329973,
+    "max_vertex_displacement_m": 0.005928652325125768,
+    "neck_rms_displacement_m": 0.0010662171774317732
+  },
+  {
+    "case": "mixed_43",
+    "minimum_individual_eyelid_gap_m": 0.010716539339388032,
+    "inner_lip_gap_m": 0.00020001815993354877,
+    "max_vertex_displacement_m": 0.020127339302210112,
+    "neck_rms_displacement_m": 0.003764695512133963
+  },
+  {
+    "case": "mixed_44",
+    "minimum_individual_eyelid_gap_m": 0.007677894500203432,
+    "inner_lip_gap_m": 0.021543868043534635,
+    "max_vertex_displacement_m": 0.012019398426540606,
+    "neck_rms_displacement_m": 0.002164131510922077
+  },
+  {
+    "case": "mixed_45",
+    "minimum_individual_eyelid_gap_m": 0.007660982188276929,
+    "inner_lip_gap_m": 0.026786329885433197,
+    "max_vertex_displacement_m": 0.019330243548182604,
+    "neck_rms_displacement_m": 0.0035175757081471622
+  },
+  {
+    "case": "mixed_46",
+    "minimum_individual_eyelid_gap_m": 0.008447802824113542,
+    "inner_lip_gap_m": 0.0006080535255801878,
+    "max_vertex_displacement_m": 0.016484211583309694,
+    "neck_rms_displacement_m": 0.0030097034605001895
+  },
+  {
+    "case": "mixed_47",
+    "minimum_individual_eyelid_gap_m": 0.00741957360062569,
+    "inner_lip_gap_m": 0.004217068231634764,
+    "max_vertex_displacement_m": 0.013489806602170402,
+    "neck_rms_displacement_m": 0.0025527219420940963
+  },
+  {
+    "case": "mixed_48",
+    "minimum_individual_eyelid_gap_m": 0.009560788821326435,
+    "inner_lip_gap_m": 0.01969819210854651,
+    "max_vertex_displacement_m": 0.00815539537151896,
+    "neck_rms_displacement_m": 0.0014084124059101136
+  },
+  {
+    "case": "mixed_49",
+    "minimum_individual_eyelid_gap_m": 0.008978606016375363,
+    "inner_lip_gap_m": 0.0018429742275298325,
+    "max_vertex_displacement_m": 0.015385421461037978,
+    "neck_rms_displacement_m": 0.0028177000749545424
+  },
+  {
+    "case": "mixed_50",
+    "minimum_individual_eyelid_gap_m": 0.0072828250314348406,
+    "inner_lip_gap_m": 0.018612078737773673,
+    "max_vertex_displacement_m": 0.008791069482376184,
+    "neck_rms_displacement_m": 0.0016170728000741092
+  },
+  {
+    "case": "mixed_51",
+    "minimum_individual_eyelid_gap_m": 0.007545683976639211,
+    "inner_lip_gap_m": 0.003010467252409381,
+    "max_vertex_displacement_m": 0.013705162728969843,
+    "neck_rms_displacement_m": 0.002449144205260419
+  },
+  {
+    "case": "mixed_53",
+    "minimum_individual_eyelid_gap_m": 0.010728588226123,
+    "inner_lip_gap_m": 0.01154218301207005,
+    "max_vertex_displacement_m": 0.0034743088720997706,
+    "neck_rms_displacement_m": 0.0006478855868036437
+  },
+  {
+    "case": "mixed_54",
+    "minimum_individual_eyelid_gap_m": 0.007865764055178491,
+    "inner_lip_gap_m": 0.02397672735489416,
+    "max_vertex_displacement_m": 0.014689512009391434,
+    "neck_rms_displacement_m": 0.002669319446266805
+  },
+  {
+    "case": "mixed_55",
+    "minimum_individual_eyelid_gap_m": 0.009403696173698687,
+    "inner_lip_gap_m": 0.005785315843981419,
+    "max_vertex_displacement_m": 0.011366586378560037,
+    "neck_rms_displacement_m": 0.0020545105708374384
+  },
+  {
+    "case": "mixed_56",
+    "minimum_individual_eyelid_gap_m": 0.00945559986199554,
+    "inner_lip_gap_m": 0.009033139350773253,
+    "max_vertex_displacement_m": 0.007077507129885628,
+    "neck_rms_displacement_m": 0.0012740836012600852
+  },
+  {
+    "case": "mixed_57",
+    "minimum_individual_eyelid_gap_m": 0.009601184176651071,
+    "inner_lip_gap_m": 0.013804939826273524,
+    "max_vertex_displacement_m": 0.0021912665106937515,
+    "neck_rms_displacement_m": 0.00019553570097707065
+  },
+  {
+    "case": "mixed_58",
+    "minimum_individual_eyelid_gap_m": 0.008816464521088804,
+    "inner_lip_gap_m": 0.004529019805486825,
+    "max_vertex_displacement_m": 0.013018883959213785,
+    "neck_rms_displacement_m": 0.002443958500159959
+  },
+  {
+    "case": "mixed_59",
+    "minimum_individual_eyelid_gap_m": 0.008882689925617231,
+    "inner_lip_gap_m": 0.009562776653341397,
+    "max_vertex_displacement_m": 0.0060580401347800055,
+    "neck_rms_displacement_m": 0.0008307998447114128
+  },
+  {
+    "case": "mixed_60",
+    "minimum_individual_eyelid_gap_m": 0.00865288400748616,
+    "inner_lip_gap_m": 0.011621026975587131,
+    "max_vertex_displacement_m": 0.004934574974587304,
+    "neck_rms_displacement_m": 0.0004803277521520015
+  },
+  {
+    "case": "mixed_61",
+    "minimum_individual_eyelid_gap_m": 0.008643999777379358,
+    "inner_lip_gap_m": 0.00019999644623111545,
+    "max_vertex_displacement_m": 0.02076297495486482,
+    "neck_rms_displacement_m": 0.0038408741021081715
+  },
+  {
+    "case": "mixed_62",
+    "minimum_individual_eyelid_gap_m": 0.007101059073738567,
+    "inner_lip_gap_m": 0.013899582236331413,
+    "max_vertex_displacement_m": 0.002370991071995146,
+    "neck_rms_displacement_m": 0.00016103323245619762
+  },
+  {
+    "case": "mixed_63",
+    "minimum_individual_eyelid_gap_m": 0.008636921174511088,
+    "inner_lip_gap_m": 0.011957104868320266,
+    "max_vertex_displacement_m": 0.002818905586303765,
+    "neck_rms_displacement_m": 0.00034506751636884466
+  },
+  {
+    "case": "mixed_64",
+    "minimum_individual_eyelid_gap_m": 0.008924811529189357,
+    "inner_lip_gap_m": 0.013274486940560173,
+    "max_vertex_displacement_m": 0.0034119877287647517,
+    "neck_rms_displacement_m": 0.000224985994543531
+  },
+  {
+    "case": "mixed_65",
+    "minimum_individual_eyelid_gap_m": 0.007878534583588611,
+    "inner_lip_gap_m": 0.000199960242785735,
+    "max_vertex_displacement_m": 0.020580840291099238,
+    "neck_rms_displacement_m": 0.003741990627128527
+  },
+  {
+    "case": "mixed_66",
+    "minimum_individual_eyelid_gap_m": 0.008423131902464905,
+    "inner_lip_gap_m": 0.014781542556865292,
+    "max_vertex_displacement_m": 0.004280116629160116,
+    "neck_rms_displacement_m": 0.00029858920661573167
+  },
+  {
+    "case": "mixed_67",
+    "minimum_individual_eyelid_gap_m": 0.00793590994696293,
+    "inner_lip_gap_m": 0.021414286283875705,
+    "max_vertex_displacement_m": 0.010775372522003387,
+    "neck_rms_displacement_m": 0.001984627178748151
+  },
+  {
+    "case": "mixed_68",
+    "minimum_individual_eyelid_gap_m": 0.009004950456449438,
+    "inner_lip_gap_m": 0.0018026632819301974,
+    "max_vertex_displacement_m": 0.016940846367621498,
+    "neck_rms_displacement_m": 0.003175503106563352
+  },
+  {
+    "case": "mixed_70",
+    "minimum_individual_eyelid_gap_m": 0.009429402549761344,
+    "inner_lip_gap_m": 0.014543370900973525,
+    "max_vertex_displacement_m": 0.004154357857052409,
+    "neck_rms_displacement_m": 0.0005172392426377726
+  },
+  {
+    "case": "mixed_71",
+    "minimum_individual_eyelid_gap_m": 0.008026779411948032,
+    "inner_lip_gap_m": 0.00019997479537001844,
+    "max_vertex_displacement_m": 0.019782055421780596,
+    "neck_rms_displacement_m": 0.0036036253257637992
+  },
+  {
+    "case": "mixed_72",
+    "minimum_individual_eyelid_gap_m": 0.007318451045260584,
+    "inner_lip_gap_m": 0.00020001067436013764,
+    "max_vertex_displacement_m": 0.019213343109484003,
+    "neck_rms_displacement_m": 0.003618127227016944
+  },
+  {
+    "case": "mixed_73",
+    "minimum_individual_eyelid_gap_m": 0.009495024481515478,
+    "inner_lip_gap_m": 0.028100418997164207,
+    "max_vertex_displacement_m": 0.022629548230671547,
+    "neck_rms_displacement_m": 0.004135768861593747
+  },
+  {
+    "case": "mixed_74",
+    "minimum_individual_eyelid_gap_m": 0.007072795278732568,
+    "inner_lip_gap_m": 0.021744357045428292,
+    "max_vertex_displacement_m": 0.012250408486354742,
+    "neck_rms_displacement_m": 0.0022275452806228857
+  },
+  {
+    "case": "mixed_75",
+    "minimum_individual_eyelid_gap_m": 0.008749650706231675,
+    "inner_lip_gap_m": 0.024987013388374578,
+    "max_vertex_displacement_m": 0.017387857866586857,
+    "neck_rms_displacement_m": 0.003119396790093683
+  },
+  {
+    "case": "mixed_76",
+    "minimum_individual_eyelid_gap_m": 0.010277180943471392,
+    "inner_lip_gap_m": 0.015704460628119823,
+    "max_vertex_displacement_m": 0.0040345210369058,
+    "neck_rms_displacement_m": 0.0005852313916589767
+  },
+  {
+    "case": "mixed_77",
+    "minimum_individual_eyelid_gap_m": 0.009625569082498422,
+    "inner_lip_gap_m": 0.021096688307400573,
+    "max_vertex_displacement_m": 0.01130838315195693,
+    "neck_rms_displacement_m": 0.0021255062429160953
+  },
+  {
+    "case": "mixed_78",
+    "minimum_individual_eyelid_gap_m": 0.00803583529282715,
+    "inner_lip_gap_m": 0.027711444190933215,
+    "max_vertex_displacement_m": 0.022562177887854935,
+    "neck_rms_displacement_m": 0.004185770646784326
+  },
+  {
+    "case": "mixed_79",
+    "minimum_individual_eyelid_gap_m": 0.008096078148765798,
+    "inner_lip_gap_m": 0.019843952676332162,
+    "max_vertex_displacement_m": 0.010342231612267822,
+    "neck_rms_displacement_m": 0.001960028925791385
+  },
+  {
+    "case": "mixed_80",
+    "minimum_individual_eyelid_gap_m": 0.00719860632126372,
+    "inner_lip_gap_m": 0.0015539600575097678,
+    "max_vertex_displacement_m": 0.016423818817376715,
+    "neck_rms_displacement_m": 0.003013698022995782
+  },
+  {
+    "case": "mixed_81",
+    "minimum_individual_eyelid_gap_m": 0.008253798609213187,
+    "inner_lip_gap_m": 0.02647087297675458,
+    "max_vertex_displacement_m": 0.019958087386607395,
+    "neck_rms_displacement_m": 0.0037373123874930706
+  },
+  {
+    "case": "mixed_83",
+    "minimum_individual_eyelid_gap_m": 0.00748266809135811,
+    "inner_lip_gap_m": 0.0010861390513759658,
+    "max_vertex_displacement_m": 0.0178592259857574,
+    "neck_rms_displacement_m": 0.003349969985347793
+  },
+  {
+    "case": "mixed_84",
+    "minimum_individual_eyelid_gap_m": 0.008280988821253592,
+    "inner_lip_gap_m": 0.02850060574511954,
+    "max_vertex_displacement_m": 0.023516108053087757,
+    "neck_rms_displacement_m": 0.004390006283161857
+  },
+  {
+    "case": "mixed_85",
+    "minimum_individual_eyelid_gap_m": 0.01008441061572779,
+    "inner_lip_gap_m": 0.001934603251717494,
+    "max_vertex_displacement_m": 0.016076430163470348,
+    "neck_rms_displacement_m": 0.002938333315505174
+  },
+  {
+    "case": "mixed_86",
+    "minimum_individual_eyelid_gap_m": 0.010545128887888444,
+    "inner_lip_gap_m": 0.009921812777160047,
+    "max_vertex_displacement_m": 0.0048490405568156385,
+    "neck_rms_displacement_m": 0.0008342194996577796
+  },
+  {
+    "case": "mixed_87",
+    "minimum_individual_eyelid_gap_m": 0.009279481438795402,
+    "inner_lip_gap_m": 0.022893541129998286,
+    "max_vertex_displacement_m": 0.013288001979200954,
+    "neck_rms_displacement_m": 0.002373383407135923
+  },
+  {
+    "case": "mixed_89",
+    "minimum_individual_eyelid_gap_m": 0.01080487552281197,
+    "inner_lip_gap_m": 0.02255462309624135,
+    "max_vertex_displacement_m": 0.013861383887524772,
+    "neck_rms_displacement_m": 0.0025013527266604467
+  },
+  {
+    "case": "mixed_90",
+    "minimum_individual_eyelid_gap_m": 0.009105130282277957,
+    "inner_lip_gap_m": 0.005179134156177746,
+    "max_vertex_displacement_m": 0.01088200143878153,
+    "neck_rms_displacement_m": 0.0019115630927173271
+  },
+  {
+    "case": "mixed_91",
+    "minimum_individual_eyelid_gap_m": 0.007817097297265683,
+    "inner_lip_gap_m": 0.010977841130934647,
+    "max_vertex_displacement_m": 0.00611878234790851,
+    "neck_rms_displacement_m": 0.000817961015881229
+  },
+  {
+    "case": "mixed_92",
+    "minimum_individual_eyelid_gap_m": 0.008243140958555478,
+    "inner_lip_gap_m": 0.00624725767455811,
+    "max_vertex_displacement_m": 0.010914326021651778,
+    "neck_rms_displacement_m": 0.0020014274871365833
+  },
+  {
+    "case": "mixed_93",
+    "minimum_individual_eyelid_gap_m": 0.007311395756414266,
+    "inner_lip_gap_m": 0.004381416336236357,
+    "max_vertex_displacement_m": 0.01240692840561055,
+    "neck_rms_displacement_m": 0.0021953333489787043
+  },
+  {
+    "case": "mixed_94",
+    "minimum_individual_eyelid_gap_m": 0.009402966336136766,
+    "inner_lip_gap_m": 0.02055516021634593,
+    "max_vertex_displacement_m": 0.009470582528026988,
+    "neck_rms_displacement_m": 0.0017285569125397033
+  },
+  {
+    "case": "mixed_95",
+    "minimum_individual_eyelid_gap_m": 0.007336116009262553,
+    "inner_lip_gap_m": 0.006892790865509424,
+    "max_vertex_displacement_m": 0.008313274329543437,
+    "neck_rms_displacement_m": 0.0014631261116380082
+  },
+  {
+    "case": "mixed_96",
+    "minimum_individual_eyelid_gap_m": 0.0089210045250801,
+    "inner_lip_gap_m": 0.00020000273558705428,
+    "max_vertex_displacement_m": 0.018183519122463302,
+    "neck_rms_displacement_m": 0.0032987963270564046
+  },
+  {
+    "case": "mixed_97",
+    "minimum_individual_eyelid_gap_m": 0.009261267319199615,
+    "inner_lip_gap_m": 0.0029207242496550184,
+    "max_vertex_displacement_m": 0.014823277209513068,
+    "neck_rms_displacement_m": 0.0027434445171488375
+  },
+  {
+    "case": "mixed_98",
+    "minimum_individual_eyelid_gap_m": 0.008593690232280946,
+    "inner_lip_gap_m": 0.015058671831953724,
+    "max_vertex_displacement_m": 0.005098182944457472,
+    "neck_rms_displacement_m": 0.0006269012415047512
+  },
+  {
+    "case": "mixed_99",
+    "minimum_individual_eyelid_gap_m": 0.010509292131652533,
+    "inner_lip_gap_m": 0.007059913353991268,
+    "max_vertex_displacement_m": 0.009000624829572293,
+    "neck_rms_displacement_m": 0.0016012610591834382
+  }
+]

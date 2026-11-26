@@ -1,0 +1,46 @@
+{
+  "status": "pass",
+  "all_12_checkpoint_hashes_verified": true,
+  "all_12_training_logs_verified": true,
+  "total_optimizer_updates": 12000,
+  "frozen_training_code_verified": true,
+  "validation_reproduction": [
+    {
+      "run": "B_seed13",
+      "validation_mae": 0.12522917985916138,
+      "absolute_difference": 0.0,
+      "predictions_sha256": "aa799848a2c8f90769746a8a12570586195ce2815cfa82465a46b077163dba71"
+    },
+    {
+      "run": "B_seed42",
+      "validation_mae": 0.12282824516296387,
+      "absolute_difference": 0.0,
+      "predictions_sha256": "2820c1d7ae9dd0965bbf6c89cc1ead37cfbe54356c1703d595d43ac682f05ac5"
+    },
+    {
+      "run": "B_seed2026",
+      "validation_mae": 0.12315770238637924,
+      "absolute_difference": 0.0,
+      "predictions_sha256": "859b503a39196161951e6e824d5ba20ca8e05ee44e7f14b3e5d5cfc54ebf82d9"
+    },
+    {
+      "run": "C_lambda0.5_seed13",
+      "validation_mae": 0.1072843074798584,
+      "absolute_difference": 0.0,
+      "predictions_sha256": "a70e8d3029c385cf890c801ed9d6a5198dd09a6889e537652a3b9572feac3bc8"
+    },
+    {
+      "run": "C_lambda0.5_seed42",
+      "validation_mae": 0.11590122431516647,
+      "absolute_difference": 0.0,
+      "predictions_sha256": "4f318a67401515cc616ef3906bdab4974fa4e3e61fbfba60ca1e6a8fc05c32ac"
+    },
+    {
+      "run": "C_lambda0.5_seed2026",
+      "validation_mae": 0.11155305057764053,
+      "absolute_difference": 0.0,
+      "predictions_sha256": "c0ffbd8020ed63b1f9ccaef5a54292389bd30a7515e6736b89d11666700cef9a"
+    }
+  ],
+  "official_experiment": false
+}

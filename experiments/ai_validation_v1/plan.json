@@ -1,0 +1,114 @@
+{
+  "status": "frozen_before_inference",
+  "official_evaluation": false,
+  "human_review_complete": false,
+  "test_human_collected": false,
+  "created_at_utc": "2026-11-23T23:31:11.064681+00:00",
+  "selected_c_lambda": 0.5,
+  "checkpoints": [
+    {
+      "name": "B_seed13",
+      "seed": 13,
+      "lambda_value": 0.0,
+      "validation_mae": 0.12522917985916138,
+      "selected_step": 1000,
+      "validation_pair_squared_distance": 0.07746254652738571,
+      "validation_micro_f1": 0.9889923793395428,
+      "elapsed_seconds": 69.01600000000326,
+      "checkpoint_sha256": "a18807a881ea8ef0f1988d3637c104be8c12bcadff4f2904b4a9f913845daed3",
+      "checkpoint": "experiments\\provisional_v1\\runs\\B_seed13\\best"
+    },
+    {
+      "name": "B_seed42",
+      "seed": 42,
+      "lambda_value": 0.0,
+      "validation_mae": 0.12282824516296387,
+      "selected_step": 1000,
+      "validation_pair_squared_distance": 0.08914393186569214,
+      "validation_micro_f1": 0.9881154499151104,
+      "elapsed_seconds": 66.1710000000021,
+      "checkpoint_sha256": "99fa898fe13c0f822ca231107844e6cec67984588d493a62951c7cbd6c8db6c8",
+      "checkpoint": "experiments\\provisional_v1\\runs\\B_seed42\\best"
+    },
+    {
+      "name": "B_seed2026",
+      "seed": 2026,
+      "lambda_value": 0.0,
+      "validation_mae": 0.12315770238637924,
+      "selected_step": 1000,
+      "validation_pair_squared_distance": 0.10442331433296204,
+      "validation_micro_f1": 0.9922480620155039,
+      "elapsed_seconds": 69.29699999999139,
+      "checkpoint_sha256": "4851fc473385b1cdd718af27be4f12a2f96948084d45ef91b426b2cab025ee4a",
+      "checkpoint": "experiments\\provisional_v1\\runs\\B_seed2026\\best"
+    },
+    {
+      "name": "C_lambda0.5_seed13",
+      "seed": 13,
+      "lambda_value": 0.5,
+      "validation_mae": 0.1072843074798584,
+      "selected_step": 1000,
+      "validation_pair_squared_distance": 0.04448147863149643,
+      "validation_micro_f1": 0.9948630136986302,
+      "elapsed_seconds": 126.43700000000536,
+      "checkpoint_sha256": "7849958ad9bfe99443be6b1a8f7c7f86e4bad7e3ceb05b5bf36209006a9b3ff9",
+      "checkpoint": "experiments\\provisional_v1\\runs\\C_lambda0.5_seed13\\best"
+    },
+    {
+      "name": "C_lambda0.5_seed42",
+      "seed": 42,
+      "lambda_value": 0.5,
+      "validation_mae": 0.11590122431516647,
+      "selected_step": 1000,
+      "validation_pair_squared_distance": 0.048318296670913696,
+      "validation_micro_f1": 0.9914821124361158,
+      "elapsed_seconds": 125.98499999998603,
+      "checkpoint_sha256": "de6b230fe657600c5f4a1a8b6c2681d52433a7bbc6ed81436ba4ca02872e3b67",
+      "checkpoint": "experiments\\provisional_v1\\runs\\C_lambda0.5_seed42\\best"
+    },
+    {
+      "name": "C_lambda0.5_seed2026",
+      "seed": 2026,
+      "lambda_value": 0.5,
+      "validation_mae": 0.11155305057764053,
+      "selected_step": 1000,
+      "validation_pair_squared_distance": 0.09201230853796005,
+      "validation_micro_f1": 0.9872773536895675,
+      "elapsed_seconds": 128.59400000001187,
+      "checkpoint_sha256": "729bdbafd8dc3e2a5ca3947d71dc0faa4c2e3edbeb62b217a9774690bbc5d727",
+      "checkpoint": "experiments\\provisional_v1\\runs\\C_lambda0.5_seed2026\\best"
+    }
+  ],
+  "training_summary_sha256": "21ed717171b0dc3ff669923dbd45c0fa254449dc5ca1ffd6440fe4224dd0aa1d",
+  "source_hashes": {
+    "data\\ai_challenge_v1\\authored_pairs.json": "7991f90bffd9e6132052cf7d9c82ba0f991e502d143669da9fe2851de6352da3",
+    "data\\paraphrases\\v1\\candidates.jsonl": "6fe3b4850e57157c29e666feba614881943ff5985b1609a456a39bb57506e814",
+    "data\\paraphrases\\v1\\paraphrase_pairs.jsonl": "d2f8720264df4b812622be6b150044ff177fa35e56bfd8263eec28400d724a1b",
+    "data\\candidates\\v1\\train.jsonl": "fb388996a0241d0d247cc8b0631ac35a56b2efe1e7b5a66ec470a9a62b02f36c",
+    "data\\candidates\\v1\\val.jsonl": "7ad397bec69eb54a07d3f3b8249f4812f5e031f9165c5ffd6c41df8ef7a2d767",
+    "data\\candidates\\v1\\test_id.jsonl": "74788cfcc916401bb2c1c0493228ae2c6741e5b5eabfd1864e36d482cf310e90",
+    "data\\candidates\\v1\\test_comp.jsonl": "a420533dad71cba63437b723ae1651e7cf26863e371f74e3c1ab4f610b7a9888",
+    "data\\candidates\\v1\\intensity_pairs.jsonl": "21735c5ba0d3c9d7cae1f5dba53e5042e79a6f0a78a441f169155b9c56d2903e",
+    "data\\candidates\\v1\\ast_verification.jsonl": "fcdbd76f04be50f2530535c1930d230ecf57378dedbe20ebaae25146a8ad5e01"
+  },
+  "input_sha256": {
+    "challenge.jsonl": "17a29292ecb60e17af89cec95fcf8b1de5f77ea093d0c1d84665a709360e4338",
+    "challenge_pairs.jsonl": "8a5e226c11057788a9dd28aa4a60caf000596ba404e343694a54d5c171555e8e",
+    "ai_semantic_reviews.jsonl": "dc4c73c5c242c14dee1b85ce48aaedde9f002e3b4e8eb4acf510b0e3b8d095f5",
+    "audit.json": "7328002782138b28976abefda025955b2b6dc4acd75d4a977559b0faf752c6e6"
+  },
+  "code_sha256": {
+    "run_ai_validation.py": "6769108fd17fa952eebf70da52a607f6240779c2f701f30355445a8eee790b95",
+    "evaluation/metrics.py": "3ada9dcf13f9af6897ffc36758e1cc91bd2ea98459a11633b616272e17801b5e",
+    "models/model_a/model.py": "de505594b80cb6183d6a1284baadb4004cb8cebbdf291d71b2746e6f1b4995d5",
+    "models/model_b/model.py": "e25f6a2dab74c757c2734cea8a8cb277c156950f59a6748636023424e911a995"
+  },
+  "structural_screen_count": 1100,
+  "ai_semantic_review_count": 150,
+  "ai_flagged_count": 6,
+  "uninspected_semantic_count": 950,
+  "review_sampling": "40 Train/20 Val/30 Test-ID/30 Test-Comp at floor(i*n/count), plus 30 Train at 20*i+i%4 where i%4 != 0. Extra sample remedies first-intensity bias of the initial Train stride.",
+  "evaluation_policy": "A plus B and selected C at all three frozen seeds; no fitting, threshold tuning, lambda selection or post-result text/label editing.",
+  "reporting_policy": "Existing Test-ID/Test-Comp (bases plus generated paraphrases) and new Test-AI; AI pair distance separately named, official unverified-pair metrics remain null.",
+  "limitation": "Assistant-created and same-author labeled after exposure to project examples; not independently collected or dual-human-annotated Test-Human. Convenience sample QC cannot certify remaining rows."
+}

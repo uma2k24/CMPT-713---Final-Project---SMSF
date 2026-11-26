@@ -1,0 +1,24 @@
+{
+  "status": "draft_not_for_inference",
+  "schema_version": "0.1",
+  "attribute_order": ["eyebrow_elevation", "eye_openness", "mouth_width", "smile_intensity", "jaw_opening", "cheek_raise"],
+  "candidate_aliases": {
+    "eyebrow_elevation": ["eyebrow", "eyebrows", "brow", "brows"],
+    "eye_openness": ["eye", "eyes", "eyelid", "eyelids"],
+    "mouth_width": ["mouth width", "width of the mouth"],
+    "smile_intensity": ["smile intensity", "smile strength"],
+    "jaw_opening": ["jaw opening", "jaw"],
+    "cheek_raise": ["cheek", "cheeks"]
+  },
+  "candidate_directions": {
+    "eyebrow_elevation": {"positive": ["raise", "lift"], "negative": ["lower"]},
+    "eye_openness": {"positive": ["open", "widen"], "negative": ["close", "narrow"]},
+    "mouth_width": {"positive": ["widen", "broaden"], "negative": ["narrow"]},
+    "smile_intensity": {"positive": ["increase", "strengthen"], "negative": ["decrease", "reduce"]},
+    "jaw_opening": {"positive": ["open"], "negative": ["close"]},
+    "cheek_raise": {"positive": ["raise", "lift"], "negative": ["lower"]}
+  },
+  "proposal_magnitudes": {"slightly": 0.25, "much": 0.75},
+  "candidate_preservation_patterns": ["keep {attribute} unchanged", "leave {attribute} as is", "do not change {attribute}"],
+  "unresolved": ["default intensity", "remaining scale and synonyms", "negated-edit policy", "modifier coordination scope", "contradiction policy", "smile width ambiguity", "negative controls relative to neutral"]
+}

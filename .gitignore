@@ -1,0 +1,12 @@
+# Downloaded models and local dependencies
+/external/huggingface_cache/
+/external/python_packages/
+/external/poppler/
+/external/tectonic/
+
+# Locally trained model checkpoints (retain metrics and run configuration)
+/experiments/provisional_v1/runs/*/best/weights.pt
+
+# Python runtime caches
+__pycache__/
+*.py[cod]

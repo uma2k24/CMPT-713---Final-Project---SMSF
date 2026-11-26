@@ -1,0 +1,62 @@
+{
+  "executed_at_utc": "2026-11-23T22:40:11.966178+00:00",
+  "status": "available_stages_complete_human_gate_pending",
+  "error": null,
+  "checks": [
+    {
+      "name": "unit_tests",
+      "arguments": [
+        "-m",
+        "unittest",
+        "models.model_a.test_model",
+        "data.test_generate",
+        "models.model_b.test_model_b",
+        "evaluation.test_metrics",
+        "models.model_c.test_objective",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "coordination/execution/unit_tests.log"
+    },
+    {
+      "name": "regenerate",
+      "arguments": [
+        "-m",
+        "data.generate",
+        "--output",
+        "C:\\SFU Grad\\Fall 2026\\CMPT 713 - NLP\\Project\\Facial_Grounding_Multi_Agent_Workflow_2026-11-23\\coordination\\execution\\workflow_reproduction_y2tp7y0z"
+      ],
+      "exit_code": 0,
+      "log": "coordination/execution/regenerate.log"
+    },
+    {
+      "name": "candidate_byte_reproduction",
+      "exit_code": 0
+    },
+    {
+      "name": "independent_evaluation_checks",
+      "arguments": [
+        "-m",
+        "unittest",
+        "evaluation.test_independent_review",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "coordination/execution/independent_evaluation_checks.log"
+    },
+    {
+      "name": "provisional_diagnostics",
+      "arguments": [
+        "-m",
+        "evaluation.run_provisional"
+      ],
+      "exit_code": 0,
+      "log": "coordination/execution/provisional_diagnostics.log"
+    }
+  ],
+  "candidate_manifest_sha256": "48619879d6158cc7c66ae17010cc7704b15b1cc98017d818d3a97118d669318a",
+  "official_experiments_completed": false,
+  "human_reviews_completed": false,
+  "test_human_collected": false,
+  "next_gate": "G2: real paraphrase verification, independent human instructions and annotations, released data manifest"
+}

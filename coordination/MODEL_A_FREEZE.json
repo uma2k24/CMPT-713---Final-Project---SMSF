@@ -1,0 +1,9 @@
+﻿{
+    "model_version":  "rules-1.0",
+    "schema_version":  "1.0",
+    "frozen_before_candidate_test_evaluation":  true,
+    "development_source":  "saved lexicon and operational annotation specification; no test labels",
+    "code_sha256":  "de505594b80cb6183d6a1284baadb4004cb8cebbdf291d71b2746e6f1b4995d5",
+    "unit_tests_passed":  6,
+    "frozen_at_utc":  "2026-11-23T21:20:17.3505169Z"
+}

@@ -1,0 +1,31 @@
+{
+  "release_status": "unreleased_provisional",
+  "g2_complete": false,
+  "human_review_complete": false,
+  "test_human_collected": false,
+  "label_quality": "AST bases and unreviewed inherited paraphrase labels",
+  "files": {
+    "Train": {
+      "path": "train.jsonl",
+      "sha256": "8a2872f98b95d2f5f7f7050933ff158896618e0f82cacb242901cfb0978483a0",
+      "count": 1600
+    },
+    "Val": {
+      "path": "val.jsonl",
+      "sha256": "2c0628117fe5e25c5275fd7e1f56f4a5ba8895e3b221213ffac5cd19be091624",
+      "count": 200
+    }
+  },
+  "created_at_utc": "2026-11-23T22:49:53.316808+00:00",
+  "source_hashes": {
+    "data\\candidates\\v1\\train.jsonl": "fb388996a0241d0d247cc8b0631ac35a56b2efe1e7b5a66ec470a9a62b02f36c",
+    "data\\candidates\\v1\\val.jsonl": "7ad397bec69eb54a07d3f3b8249f4812f5e031f9165c5ffd6c41df8ef7a2d767",
+    "data\\paraphrases\\v1\\candidates.jsonl": "6fe3b4850e57157c29e666feba614881943ff5985b1609a456a39bb57506e814",
+    "data\\paraphrases\\v1\\paraphrase_pairs.jsonl": "d2f8720264df4b812622be6b150044ff177fa35e56bfd8263eec28400d724a1b"
+  },
+  "paraphrase_pairs": {
+    "path": "pairs.jsonl",
+    "sha256": "d8ff2596056877c9995c7b052e0915bceb02e00b61a332961e2c653393347431",
+    "count": 900
+  }
+}

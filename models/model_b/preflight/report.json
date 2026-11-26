@@ -1,0 +1,28 @@
+{
+  "status": "pass",
+  "pretrained_model_id": "google-t5/t5-base",
+  "pretrained_revision": "a9723ea7f1b39c1eae772870f3b547bf6ef7e6c1",
+  "training_performed": false,
+  "optimizer_steps": 0,
+  "research_checkpoint_created": false,
+  "snapshot_path": "C:\\SFU Grad\\Fall 2026\\CMPT 713 - NLP\\Project\\Facial_Grounding_Multi_Agent_Workflow_2026-11-23\\external\\huggingface_cache\\models--google-t5--t5-base\\snapshots\\a9723ea7f1b39c1eae772870f3b547bf6ef7e6c1",
+  "environment": {
+    "python": "3.12.2",
+    "torch": "2.9.1+cu130",
+    "transformers": "5.3.0",
+    "numpy": "2.2.6",
+    "cuda_available": true,
+    "cuda_runtime": "13.0",
+    "gpu": "NVIDIA GeForce RTX 4070",
+    "gpu_memory_bytes": 12878086144
+  },
+  "batch_size": 4,
+  "sequence_length": 128,
+  "gradients_finite": true,
+  "encoder_has_gradients": true,
+  "peak_cuda_memory_allocated_bytes": 1137292288,
+  "peak_cuda_memory_reserved_bytes": 1245708288,
+  "parameter_count": 109637772,
+  "note": "No optimizer constructed or stepped. Candidate Train rows exercised software only; loss is not a research metric.",
+  "elapsed_seconds": 55.953000000008615
+}

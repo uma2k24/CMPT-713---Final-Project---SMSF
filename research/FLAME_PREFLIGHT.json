@@ -1,0 +1,138 @@
+{
+  "asset_root": "C:\\SFU Grad\\Fall 2026\\CMPT 713 - NLP\\Project\\FLAME",
+  "dependencies": {
+    "torch": true,
+    "numpy": true,
+    "scipy": true,
+    "smplx": true,
+    "trimesh": true,
+    "matplotlib": true,
+    "pyrender": false,
+    "chumpy": false
+  },
+  "models": [
+    {
+      "path": "FLAME\\FLAME2019\\FLAME2019\\female_model.pkl",
+      "bytes": 53023716,
+      "sha256": "cf58da1da1bd72d01751339824a150ff739b5c3be809c8c1c992cccb44546e6b",
+      "pickle_globals": [
+        "__builtin__ set",
+        "chumpy.ch Ch",
+        "numpy dtype",
+        "numpy ndarray",
+        "numpy.core.multiarray _reconstruct",
+        "scipy.sparse.csc csc_matrix"
+      ]
+    },
+    {
+      "path": "FLAME\\FLAME2019\\FLAME2019\\generic_model.pkl",
+      "bytes": 53023716,
+      "sha256": "e7f4f6ac7aa97045b3989893386aa94dc5245ded7105bbbf44116bfdf801a050",
+      "pickle_globals": [
+        "__builtin__ set",
+        "chumpy.ch Ch",
+        "numpy dtype",
+        "numpy ndarray",
+        "numpy.core.multiarray _reconstruct",
+        "scipy.sparse.csc csc_matrix"
+      ]
+    },
+    {
+      "path": "FLAME\\FLAME2019\\FLAME2019\\male_model.pkl",
+      "bytes": 53023716,
+      "sha256": "4ab6cb8f7a51c8eee4fb7ac9db10ccf3f61f0690f471b10919a5ae30addb8e47",
+      "pickle_globals": [
+        "__builtin__ set",
+        "chumpy.ch Ch",
+        "numpy dtype",
+        "numpy ndarray",
+        "numpy.core.multiarray _reconstruct",
+        "scipy.sparse.csc csc_matrix"
+      ]
+    },
+    {
+      "path": "FLAME\\FLAME2020\\FLAME2020\\female_model.pkl",
+      "bytes": 53023716,
+      "sha256": "efee38e24c9f9f7cc01120a5a48201a787e97e6e20af455747fd60f3dc06eb68",
+      "pickle_globals": [
+        "__builtin__ set",
+        "chumpy.ch Ch",
+        "numpy dtype",
+        "numpy ndarray",
+        "numpy.core.multiarray _reconstruct",
+        "scipy.sparse.csc csc_matrix"
+      ]
+    },
+    {
+      "path": "FLAME\\FLAME2020\\FLAME2020\\generic_model.pkl",
+      "bytes": 53023716,
+      "sha256": "efcd14cc4a69f3a3d9af8ded80146b5b6b50df3bd74cf69108213b144eba725b",
+      "pickle_globals": [
+        "__builtin__ set",
+        "chumpy.ch Ch",
+        "numpy dtype",
+        "numpy ndarray",
+        "numpy.core.multiarray _reconstruct",
+        "scipy.sparse.csc csc_matrix"
+      ]
+    },
+    {
+      "path": "FLAME\\FLAME2020\\FLAME2020\\male_model.pkl",
+      "bytes": 53023716,
+      "sha256": "5a996eaca4b56b03a0c2907f7dfa3a92680d965fd190d345a7e588f6fa017d1b",
+      "pickle_globals": [
+        "__builtin__ set",
+        "chumpy.ch Ch",
+        "numpy dtype",
+        "numpy ndarray",
+        "numpy.core.multiarray _reconstruct",
+        "scipy.sparse.csc csc_matrix"
+      ]
+    },
+    {
+      "path": "FLAME\\FLAME2023\\FLAME2023\\flame2023.pkl",
+      "bytes": 53023716,
+      "sha256": "8fb1af0db1abb51053ead8fd1f2624a63d01c9602f4a4fb4ea23bd2c82017fa0",
+      "pickle_globals": [
+        "__builtin__ set",
+        "chumpy.ch Ch",
+        "numpy dtype",
+        "numpy ndarray",
+        "numpy.core.multiarray _reconstruct",
+        "scipy.sparse.csc csc_matrix"
+      ]
+    },
+    {
+      "path": "FLAME\\FLAME2023\\FLAME2023\\flame2023_no_jaw.pkl",
+      "bytes": 53023716,
+      "sha256": "b291fcd16870f63f95586331c8f98080f486dd5c4b38e4ad40d5be030c5920a9",
+      "pickle_globals": [
+        "__builtin__ set",
+        "chumpy.ch Ch",
+        "numpy dtype",
+        "numpy ndarray",
+        "numpy.core.multiarray _reconstruct",
+        "scipy.sparse.csc csc_matrix"
+      ]
+    }
+  ],
+  "readmes": [
+    {
+      "path": "FLAME\\FLAME2019\\FLAME2019\\Readme.pdf",
+      "extracted": "research/FLAME2019_README.txt"
+    },
+    {
+      "path": "FLAME\\FLAME2020\\FLAME2020\\Readme.pdf",
+      "extracted": "research/FLAME2020_README.txt"
+    },
+    {
+      "path": "FLAME\\FLAME2023\\FLAME2023\\Readme.pdf",
+      "extracted": "research/FLAME2023_README.txt"
+    },
+    {
+      "path": "FLAME\\TextureSpace\\Readme.pdf",
+      "extracted": "research/TextureSpace_README.txt"
+    }
+  ],
+  "repository_commit": "5a85f60a77f9e0454109e79de0a6517c4b95d371"
+}

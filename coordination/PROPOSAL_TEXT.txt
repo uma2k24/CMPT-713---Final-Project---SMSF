@@ -1,0 +1,288 @@
+Same Meaning, Same Face: Compositional and Paraphrase-Consistent
+Natural Language Grounding for 3D Facial Geometry
+Jill Ference
+Simon Fraser University
+jill_ference@sfu.caUtsav Anantbhat
+Simon Fraser University
+uaa5@sfu.ca
+1 Problem Statement
+Natural-language interfaces can make 3D facial editing
+more accessible by allowing users to describe desired
+changes rather than manually adjusting geometric pa-
+rameters. We frame this as atext-to-parameter ground-
+ingtask: mapping a natural-language editing instruction
+to a vector of continuous, normalized facial-geometry
+parameters (e.g., eyebrow elevation, mouth width) that
+can be rendered with a parametric 3D face model. In-
+terpreting an instruction such as “raise the eyebrows
+slightly, widen the smile, but keep the jaw unchanged”
+requires more than identifying facial attributes: a model
+must understand modification intensity, relationships be-
+tween attributes, and the composition of multiple edits.
+We investigate whether consistency-aware training
+improves the robustness and generalization of language
+models on this task, specifically:
+1.Paraphrase consistency:semantically equivalent
+instructions should produce similar parameter vec-
+tors regardless of wording.
+2.Compositional generalization:models should
+correctly interpret unseen combinations of individ-
+ually familiar attributes and modifiers.
+We choose these aspects because standard supervised
+fine-tuning treats each instruction independently, and
+such models are known to rely on surface wording and to
+fail on novel combinations (Keysers et al., 2020). In an
+editing interface, these failures are immediately visible:
+rephrasing the same request produces a different face.
+The continuous output space also allows precise, per-
+attribute error measurement. We therefore hypothesize
+that adding an explicit paraphrase-consistency objective
+to supervised fine-tuning will reduce parameter predic-
+tion error on unfamiliar phrasings and unseen attribute
+combinations.
+Our contributions are (1) a dataset of facial editing
+instructions paired with parameter vectors; (2) a con-
+trolled comparison of a rule-based baseline, a supervised
+model, and our consistency-aware variant; and (3) an
+analysis of whether consistency training improves ac-
+curacy on unfamiliar phrasings and unseen attribute
+combinations.
+2 Related Work
+Jiang et al. (2021) proposed Talk-to-Edit, which usesnatural-language dialogue to make fine-grained changes
+to facial images, but edits 2D images through a GAN
+latent space rather than explicit geometric parameters.
+Li et al. (2017) introduced FLAME, a parametric 3D
+face model that represents shape, expression, and pose
+with numerical parameters; however, these parameters
+are learned statistically and do not correspond directly
+to intuitive language.
+Other studies have explored how well models gener-
+alize to unfamiliar combinations of concepts. Keysers
+et al. (2020) showed that standard sequence-to-sequence
+models degrade sharply on novel combinations of fa-
+miliar primitives, while Yin et al. (2023) showed that
+consistency regularization improves compositional gen-
+eralization in semantic parsing and machine translation.
+Our project is neither a re-implementation nor a repli-
+cation. We fine-tune pretrained T5 (Raffel et al., 2020)
+and adapt the consistency-regularization idea of Yin
+et al. (2023) from discrete sequence outputs to contin-
+uous parameter regression, using paraphrase pairs as
+equivalent inputs. To our knowledge, this has not been
+explored for grounding language in 3D facial geometry.
+Rather than generating realistic faces, we study how
+accurately and consistently a language model can in-
+terpret instructions and convert them into meaningful
+numerical values.
+3 Approach
+We map an editing instruction xto a parameter vector
+y∈[−1,1]DoverD= 6 facial attributes: eyebrow
+elevation, eye openness, mouth width, smile intensity,
+jaw opening, and cheek raise. Each value encodes the
+direction and magnitude of a change relative to a neutral
+face, with 0denoting no change. We compare three
+models (Table 1).
+Model Representation Objective
+A: Rule-based Lexicon + patterns None
+B: Fine-tuned T5 T5-base encoderL sup
+C: Consistency T5 T5-base encoderL sup+λL cons
+Table 1: Overview of the three models: a rule-based
+baseline, a supervised T5 baseline, and our proposed
+consistency-aware T5.
+Model A (Rule-based).A lexicon maps attribute
+terms (e.g., “brows”) to dimensions, direction verbs
+(e.g., “raise”, “narrow”) to signs, and intensity modifiers
+to fixed magnitudes (e.g., “slightly” →0.25 , “much”
+
+→0.75 ); preservation cues such as “keep” set the value
+to0. While this approach is simple and interpretable, it
+is expected to struggle with unseen phrasing and multi-
+edit instructions.
+Model B (Fine-tuned T5).We fine-tune a pretrained
+T5 encoder with two output heads over its mean-pooled
+representation: a multi-label classifier identifying modi-
+fied attributes, p∈[0,1]D, and a regressor predicting
+their values, ˆy∈[−1,1]D. Training minimizes the
+supervised loss
+Lsup=BCE(p,m) +∥ ˆy−y∥2
+2,(1)
+where BCE is binary cross-entropy and m∈ {0,1}D
+marks the modified attributes. This is a supervised base-
+line without consistency training.
+Model C (Consistency-aware T5).Our proposed
+model adds a consistency loss over paraphrase pairs
+(x, x′), such as “make the smile slightly wider” and
+“widen the smile a little”:
+Lcons=∥ˆy(x)− ˆy(x′)∥2
+2,(2)
+weighted by λ, which controls the importance of consis-
+tency during training (Table 1). Because Lconsrequires
+no gold parameters, it can also be applied to automati-
+cally generated paraphrases.
+4 Experimental Setup
+Data.As no existing dataset pairs editing instructions
+with continuous 3D facial parameters, we construct our
+own in three stages. (1) We generate ∼1,000 instruc-
+tions from a template grammar over attributes, direc-
+tions, intensity modifiers, preservation cues, and multi-
+edit conjunctions; gold vectors yare derived composi-
+tionally, yielding exact labels. (2) Each instruction is
+paraphrased using an LLM and manually verified for
+meaning preservation, producing pairs (x, x′). (3) We
+collect 150–200 instructions written by participants un-
+familiar with our templates, which both authors annotate
+separately using the same fixed intensity scale as the
+templates, resolving disagreements by discussion. Para-
+phrases of the same instruction never appear in different
+splits (Table 2).
+Split Size Purpose
+Train / Val 800 / 100 Training, tuningλ
+Test-ID 100 In-distribution accuracy
+Test-Comp 100 Unseen attribute combinations
+Test-Human 150–200 Unfamiliar phrasing
+Table 2: Dataset splits and their evaluation purpose.
+Implementation.We use PyTorch and Hugging Face
+Transformers with pretrained T5-base weights, and im-
+plement the data generator, rule-based baseline, output
+heads, consistency loss, and evaluation ourselves. If
+time permits, we will integrate predicted parameters
+with a parametric 3D face model such as FLAME for
+visualization. Since FLAME’s parameters do not corre-
+spond directly to our attributes, this requires manually
+defining how each attribute maps to its geometry.Evaluation.We report six metrics.Attribute F1
+measures whether the model identifies the modified at-
+tributes.MAEmeasures the error between predicted
+and gold values.Paraphrase consistencyis the mean
+Lcons(Eq. 2) over test paraphrase pairs.Compositional
+accuracyis the fraction of Test-Comp instructions with
+all values within ϵ= 0.1 of gold.Negation accuracy
+is the fraction of preserved attributes predicted within
+ϵof0.Intensity accuracyis the fraction of modifier
+pairs (e.g., “slightly” vs. “much”) ordered correctly by
+magnitude. Because a constant predictor is trivially con-
+sistent, we always report consistency alongside MAE.
+Formal definitions are given in Appendix A.
+Comparison.Comparing A with B measures the ben-
+efit of learned representations, while comparing B with
+C, trained on identical data, isolates the effect of the
+consistency objective. We vary λ∈ {0.1,0.5,1.0} and
+report mean ±std over three seeds. Since a constant
+predictor is trivially consistent, we judge Model C by
+whether it reduces error on Test-Comp and Test-Human,
+not by consistency alone.
+5 Timeline
+Dates Tasks Lead
+Oct 28–Nov 4 Finalize the six facial attributes, in-
+tensity scale, and annotation guide-
+lines. Build the template grammar,
+generate instructions with gold vec-
+tors, and create LLM paraphrases
+with manual verification. Build the
+data splits, and collect and annotate
+Test-Human instructions.Both
+Nov 4–11 Implement Model A by building a
+lexicon of attribute terms, direction
+verbs, intensity modifiers, and preser-
+vation cues, and rules that combine
+them into parameter vectors.Utsav
+Implement Model B by adding at-
+tribute classification and regression
+heads to a pretrained T5-base en-
+coder, and train it onL sup.Jill
+Nov 11–18 Implement Model C by adding the
+paraphrase consistency loss to Model
+B’s training, and tune λon the vali-
+dation set.Jill
+Implement all six metrics and evalu-
+ate Model A on every test split.Utsav
+Nov 18–25 Evaluate all three models on every
+test split, compare preliminary re-
+sults, and write the milestone report.Both
+Nov 25–Dec 4 Sweep λover three seeds and an-
+alyze errors on negation, intensity,
+and unseen combinations. Op-
+tionally visualize predictions with
+FLAME. Write the final report and
+prepare the presentation.Both
+Table 3: Project timeline and task allocation.
+By the milestone, we aim to have the complete dataset,
+the rule-based (Model A), supervised (Model B), and
+consistency-aware (Model C) models implemented, and
+preliminary results on all test splits.
+
+References
+Yuming Jiang, Ziqi Huang, Xingang Pan, Chen Change
+Loy, and Ziwei Liu. 2021. Talk-To-Edit: Fine-
+grained facial editing via dialog. InProceedings
+of the IEEE/CVF International Conference on Com-
+puter Vision (ICCV), pages 13799–13808.
+Daniel Keysers, Nathanael Schärli, Nathan Scales,
+Hylke Buisman, Daniel Furrer, Sergii Kashubin,
+Nikola Momchev, Danila Sinopalnikov, Lukasz
+Stafiniak, Tibor Tihon, Dmitry Tsarkov, Xiao Wang,
+Marc van Zee, and Olivier Bousquet. 2020. Measur-
+ing compositional generalization: A comprehensive
+method on realistic data. InInternational Conference
+on Learning Representations (ICLR).
+Tianye Li, Timo Bolkart, Michael J. Black, Hao Li, and
+Javier Romero. 2017. Learning a model of facial
+shape and expression from 4D scans.ACM Transac-
+tions on Graphics, 36(6):194:1–194:17.
+Colin Raffel, Noam Shazeer, Adam Roberts, Katherine
+Lee, Sharan Narang, Michael Matena, Yanqi Zhou,
+Wei Li, and Peter J. Liu. 2020. Exploring the lim-
+its of transfer learning with a unified Text-to-Text
+Transformer.Journal of Machine Learning Research,
+21(140):1–67.
+Yongjing Yin, Jiali Zeng, Yafu Li, Fandong Meng, Jie
+Zhou, and Yue Zhang. 2023. Consistency regular-
+ization training for compositional generalization. In
+Proceedings of the 61st Annual Meeting of the As-
+sociation for Computational Linguistics (Volume 1:
+Long Papers), pages 1294–1308, Toronto, Canada.
+Association for Computational Linguistics.
+A Evaluation Metrics
+Attribute F1.Computed over binary modi-
+fied/unmodified decisions per attribute, with true
+positives (TP), false positives (FP), and false negatives
+(FN).
+Precision (P)=TP
+TP+FP(3)
+Recall (R)=TP
+TP+FN(4)
+F1=2PR
+P+R(5)
+MAE. Nis the number of test instructions and Dthe
+number of attributes.
+MAE=1
+NDN∑︂
+i=1D∑︂
+j=1|yij−ˆyij|(6)
+Paraphrase consistency. Pis the set of test para-
+phrase pairs.
+Cons=1
+|P|∑︂
+(x,x′)∈P∥ˆy(x)− ˆy(x′)∥2
+2 (7)
+Compositional accuracy. Dcis the set of Test-Comp
+instructions and1[·]is the indicator function.
+Acc comp=1
+|Dc|∑︂
+k∈D c1[︂
+max
+j|ykj−ˆykj|< ϵ]︂
+(8)Negation accuracy. Sis the set of (instruction, at-
+tribute) pairs marked as preserved.
+Acc neg=1
+|S|∑︂
+(i,j)∈S1[︁
+|ˆyij|< ϵ]︁
+(9)
+Intensity accuracy. Qis the set of instruction pairs
+(xa, xb)differing only in a weaker versus stronger mod-
+ifier on attributej.
+Acc int=1
+|Q|∑︂
+(xa,xb)∈Q1[︁
+|ˆyj(xa)|<|ˆy j(xb)|]︁
+(10)

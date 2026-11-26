@@ -1,0 +1,112 @@
+{
+  "version": "FLAME2019-geometric-proxies-v1",
+  "model_sha256": "e7f4f6ac7aa97045b3989893386aa94dc5245ded7105bbbf44116bfdf801a050",
+  "landmark_sha256": "2881bdad8e61e87aad83a3df2e04655c534694089f68ca7144e7350da9e8ad62",
+  "landmark_source": "https://github.com/soubhiksanyal/RingNet/blob/master/flame_model/flame_static_embedding.pkl",
+  "static_landmark_convention": "51 inner iBUG landmarks, global indices 17 through 67",
+  "feature_names": [
+    "brow_left",
+    "brow_right",
+    "eyelid_gap_left",
+    "eyelid_gap_right",
+    "mouth_width",
+    "lip_corner_lift_left",
+    "lip_corner_lift_right",
+    "cheek_patch_left",
+    "cheek_patch_right"
+  ],
+  "feature_scales_m": [
+    0.004,
+    0.004,
+    0.002,
+    0.002,
+    0.006,
+    0.003,
+    0.003,
+    0.002,
+    0.002
+  ],
+  "feature_controls": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    3,
+    3,
+    5,
+    5
+  ],
+  "reference_jaw_radians": 0.175,
+  "jaw_scale_radians": 0.175,
+  "cheek_vertex_ids": [
+    [
+      3120,
+      3124,
+      3125,
+      3117,
+      3119,
+      3111,
+      3123,
+      3127,
+      3121,
+      3109,
+      3126,
+      3115,
+      3128,
+      1753,
+      3118,
+      3133
+    ],
+    [
+      2093,
+      2097,
+      2098,
+      2082,
+      2092,
+      2076,
+      2096,
+      2094,
+      2100,
+      2074,
+      2099,
+      2080,
+      2101,
+      499,
+      2083,
+      2106
+    ]
+  ],
+  "reference_features_m": [
+    0.01984293546567311,
+    0.020068104651689435,
+    0.009489448190099843,
+    0.009578290978495677,
+    0.04836326607118111,
+    -0.001069757127256557,
+    -0.0009880525813783236,
+    -0.02732870696192912,
+    -0.027258920491225573
+  ],
+  "ridge_fraction_of_mean_basis_energy": 0.02,
+  "max_abs_expression_coefficient": 3.0,
+  "minimum_inner_lip_gap_m": 0.0002,
+  "inner_lip_landmark_pairs": [
+    [
+      61,
+      67
+    ],
+    [
+      62,
+      66
+    ],
+    [
+      63,
+      65
+    ]
+  ],
+  "fit": "Spatially regularized FLAME expression fit with nine exact linear geometric constraints at the requested jaw angle",
+  "scales_status": "Engineering choices; not human-calibrated intensity or perceptual measurements",
+  "semantic_mapping_complete": false,
+  "human_perceptual_validation": false
+}

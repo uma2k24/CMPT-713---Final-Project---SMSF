@@ -1,0 +1,10 @@
+test_delivered_candidates_independent_holdout_and_hash_audit (evaluation.test_independent_review.IndependentReview.test_delivered_candidates_independent_holdout_and_hash_audit) ... ok
+test_exact_epsilon_fails_both_tolerance_metrics (evaluation.test_independent_review.IndependentReview.test_exact_epsilon_fails_both_tolerance_metrics) ... ok
+test_hand_calculation_with_missed_and_spurious_edits (evaluation.test_independent_review.IndependentReview.test_hand_calculation_with_missed_and_spurious_edits) ... ok
+test_id_coverage_cannot_silently_drop_or_duplicate (evaluation.test_independent_review.IndependentReview.test_id_coverage_cannot_silently_drop_or_duplicate) ... ok
+test_nonfinite_prediction_and_wrong_split_rejected (evaluation.test_independent_review.IndependentReview.test_nonfinite_prediction_and_wrong_split_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.024s
+
+OK

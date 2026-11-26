@@ -1,0 +1,28 @@
+{
+  "model_path": "C:\\SFU Grad\\Fall 2026\\CMPT 713 - NLP\\Project\\FLAME\\FLAME2023\\FLAME2023\\flame2023.pkl",
+  "model_sha256": "8fb1af0db1abb51053ead8fd1f2624a63d01c9602f4a4fb4ea23bd2c82017fa0",
+  "device": "cuda",
+  "vertices": [
+    5,
+    5023,
+    3
+  ],
+  "faces": [
+    9976,
+    3
+  ],
+  "neutral_template_max_abs_error": 2.2351741790771484e-08,
+  "expression_gradients_finite": true,
+  "expression_gradients_nonzero": true,
+  "semantic_mapping_complete": false,
+  "jaw_mapping": "illustrative only: positive jaw control times0.35 radians around local x",
+  "unmapped_controls": [
+    "eyebrow_elevation",
+    "eye_openness",
+    "mouth_width",
+    "smile_intensity",
+    "cheek_raise"
+  ],
+  "negative_jaw": "rejected: neutral-state feasibility requires explicit reference",
+  "rendering": "orthographic untextured software rendering; no landmark embeddings used"
+}

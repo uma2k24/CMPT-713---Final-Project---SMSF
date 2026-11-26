@@ -1,0 +1,13 @@
+{
+  "counts": {
+    "pending": 1100,
+    "approved": 0,
+    "rejected": 0,
+    "needs_adjudication": 0
+  },
+  "pairs_not_in_supplied_files": 0,
+  "g2_complete": false,
+  "release_status": "not_released",
+  "remaining": "Test-Human authorship, dual annotations/adjudication and full release audit are separate requirements",
+  "evidence_caveat": "This validates recorded assertions; it cannot prove that a reviewer actually performed the review."
+}

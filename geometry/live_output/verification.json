@@ -1,0 +1,23 @@
+{
+  "status": "pass",
+  "checked_at_utc": "2026-11-24T18:50:34.849755+00:00",
+  "test_modules": [
+    "models.model_a.test_model",
+    "data.test_generate",
+    "models.model_b.test_model_b",
+    "evaluation.test_metrics",
+    "models.model_c.test_objective",
+    "evaluation.test_independent_review",
+    "geometry.test_flame",
+    "data.test_paraphrase_pipeline",
+    "models.model_b.test_provisional_data",
+    "evaluation.test_ai_validation",
+    "geometry.test_live_engine",
+    "geometry.test_semantic_calibration"
+  ],
+  "trained_checkpoints_verified": 12,
+  "evaluation_prediction_files_verified": 21,
+  "human_review_complete": false,
+  "test_human_collected": false,
+  "training_repeated": false
+}

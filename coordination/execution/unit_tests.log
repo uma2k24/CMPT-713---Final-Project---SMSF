@@ -1,0 +1,45 @@
+test_ambiguous_negation_is_not_reversed (models.model_a.test_model.RuleTests.test_ambiguous_negation_is_not_reversed) ... ok
+test_batch_deterministic (models.model_a.test_model.RuleTests.test_batch_deterministic) ... ok
+test_complement_order (models.model_a.test_model.RuleTests.test_complement_order) ... ok
+test_negative_and_default (models.model_a.test_model.RuleTests.test_negative_and_default) ... ok
+test_redundancy_and_explicit_negation (models.model_a.test_model.RuleTests.test_redundancy_and_explicit_negation) ... ok
+test_scope_and_preservation (models.model_a.test_model.RuleTests.test_scope_and_preservation) ... ok
+test_conflicts_and_invalid_ast_rejected (data.test_generate.GeneratorTests.test_conflicts_and_invalid_ast_rejected) ... ok
+test_corruption_detected (data.test_generate.GeneratorTests.test_corruption_detected) ... ok
+test_cross_split_pair_detected (data.test_generate.GeneratorTests.test_cross_split_pair_detected) ... ok
+test_determinism (data.test_generate.GeneratorTests.test_determinism) ... ok
+test_evidence_resolves (data.test_generate.GeneratorTests.test_evidence_resolves) ... ok
+test_manual_ast_ground_truth (data.test_generate.GeneratorTests.test_manual_ast_ground_truth) ... ok
+test_release_invariants_and_counts (data.test_generate.GeneratorTests.test_release_invariants_and_counts) ... ok
+test_candidate_release_gate (models.model_b.test_model_b.ModelChecks.test_candidate_release_gate) ... ok
+test_checkpoint_roundtrip (models.model_b.test_model_b.ModelChecks.test_checkpoint_roundtrip) ... ok
+test_encoder_predictions_padding_invariant_and_bounded (models.model_b.test_model_b.ModelChecks.test_encoder_predictions_padding_invariant_and_bounded) ... ok
+test_group_weights_have_equal_total_per_group (models.model_b.test_model_b.ModelChecks.test_group_weights_have_equal_total_per_group) ... ok
+test_human_review_must_resolve_exact_evidence (models.model_b.test_model_b.ModelChecks.test_human_review_must_resolve_exact_evidence) ... ok
+test_loss_scaling_and_gradient_paths (models.model_b.test_model_b.ModelChecks.test_loss_scaling_and_gradient_paths) ... ok
+test_malformed_labels_rejected_with_valueerror (models.model_b.test_model_b.ModelChecks.test_malformed_labels_rejected_with_valueerror) ... ok
+test_masked_pool_excludes_padding_and_rejects_empty (models.model_b.test_model_b.ModelChecks.test_masked_pool_excludes_padding_and_rejects_empty) ... ok
+test_record_validation_rejects_wrong_split_and_review (models.model_b.test_model_b.ModelChecks.test_record_validation_rejects_wrong_split_and_review) ... ok
+test_release_hash_and_overlap_guards (models.model_b.test_model_b.ModelChecks.test_release_hash_and_overlap_guards) ... ok
+test_threshold_selection_and_tie (models.model_b.test_model_b.ModelChecks.test_threshold_selection_and_tie) ... ok
+test_all_negative_f1_and_false_positive (evaluation.test_metrics.MetricsTests.test_all_negative_f1_and_false_positive) ... ok
+test_ast_evidence_cannot_verify_human_text (evaluation.test_metrics.MetricsTests.test_ast_evidence_cannot_verify_human_text) ... ok
+test_consistency_is_sum_not_dimension_mean (evaluation.test_metrics.MetricsTests.test_consistency_is_sum_not_dimension_mean) ... ok
+test_constant_predictor_diagnostic (evaluation.test_metrics.MetricsTests.test_constant_predictor_diagnostic) ... ok
+test_empty_and_noncomp (evaluation.test_metrics.MetricsTests.test_empty_and_noncomp) ... ok
+test_hand_computed_f1_mae (evaluation.test_metrics.MetricsTests.test_hand_computed_f1_mae) ... ok
+test_intensity_absolute_order_and_tie (evaluation.test_metrics.MetricsTests.test_intensity_absolute_order_and_tie) ... ok
+test_invalid_gold_and_pairs (evaluation.test_metrics.MetricsTests.test_invalid_gold_and_pairs) ... ok
+test_invalid_prediction_inputs (evaluation.test_metrics.MetricsTests.test_invalid_prediction_inputs) ... ok
+test_perfect_and_denominators (evaluation.test_metrics.MetricsTests.test_perfect_and_denominators) ... ok
+test_review_identifier_alone_is_not_evidence (evaluation.test_metrics.MetricsTests.test_review_identifier_alone_is_not_evidence) ... ok
+test_strict_epsilon_at_zero_target (evaluation.test_metrics.MetricsTests.test_strict_epsilon_at_zero_target) ... ok
+test_unmentioned_is_not_preservation (evaluation.test_metrics.MetricsTests.test_unmentioned_is_not_preservation) ... ok
+test_invalid_inputs (models.model_c.test_objective.ObjectiveTests.test_invalid_inputs) ... ok
+test_lambda_zero_is_same_supervised_tensor (models.model_c.test_objective.ObjectiveTests.test_lambda_zero_is_same_supervised_tensor) ... ok
+test_reduction_and_both_gradients (models.model_c.test_objective.ObjectiveTests.test_reduction_and_both_gradients) ... ok
+
+----------------------------------------------------------------------
+Ran 40 tests in 0.152s
+
+OK

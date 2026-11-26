@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "status": "frozen_plan_not_executed_G2_pending",
+  "created_date": "2026-11-23",
+  "seeds": [13, 42, 2026],
+  "baseline": {"model": "B", "lambda": 0.0, "runs": 3},
+  "consistency": {"model": "C", "lambdas": [0.1, 0.5, 1.0], "runs_per_lambda": 3, "runs": 9},
+  "rule_baseline": {"model": "A", "deterministic_runs": 1, "seed": null},
+  "test_splits": ["Test-ID", "Test-Comp", "Test-Human"],
+  "checkpoint_selection": {"split": "Val", "primary": "minimum_MAE", "tie_break": "earliest_checkpoint"},
+  "lambda_selection": {"split": "Val", "primary": "minimum_mean_MAE_across_declared_seeds", "tie_breaks": ["minimum_mean_paraphrase_consistency", "smaller_lambda"]},
+  "aggregation": {"center": "arithmetic_mean", "spread": "sample_standard_deviation", "ddof": 1, "minimum_runs_for_std": 2, "missing": "null_with_reason_and_count"},
+  "required_frozen_inputs": ["data_manifest", "verified_pair_manifests", "leakage_audit", "schema_version", "metric_version", "pretrained_revision", "training_config", "pair_supervision_policy", "loss_reductions", "classification_threshold_policy"],
+  "run_record_fields": ["run_id", "model", "seed", "lambda", "status", "data_version", "config_hash", "checkpoint_hash", "tokenizer_revision", "software_versions", "hardware", "validation_metrics", "selection_status", "prediction_paths", "start_time", "end_time", "failure_reason"],
+  "completed_runs": [],
+  "scope": "Official reviewed-data study; provisional fitting does not satisfy G2",
+  "provisional_sweep": "experiments/provisional_v1/plan.json",
+  "provisional_progress": "experiments/provisional_v1/progress.json"
+}

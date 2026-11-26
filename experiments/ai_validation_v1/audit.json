@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "challenge_rows": 150,
+  "intent_pairs": 75,
+  "exact_normalized_text_collisions": 0,
+  "internal_text_duplicates": 0,
+  "rows_with_existing_train_val_label_signature": 50,
+  "semantic_disjointness_claim": false,
+  "semantic_overlap_note": "A lexical/scope diagnostic; identical label signatures may occur in Train/Val. New IDs do not establish new semantic groups.",
+  "categories": {
+    "single": 48,
+    "two_edits": 48,
+    "preservation": 24,
+    "preservation_only": 6,
+    "three_edits": 12,
+    "three_edits_preservation": 12
+  },
+  "modified_attribute_counts": [
+    42,
+    42,
+    42,
+    42,
+    42,
+    42
+  ],
+  "explicit_preservation_targets": 112
+}
