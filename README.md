@@ -252,7 +252,6 @@ py -3 -m unittest geometry.test_flame geometry.test_semantic_calibration geometr
 | `research/` | Asset audits, provenance, related work, and CelebA reference export |
 | `reports/` | Experiment reports and milestone LaTeX/PDF sources |
 | `docs/` | Execution guidance and project history |
-| `coordination/`, `agents/` | Workflow contract, status, decisions, and role documentation |
 | `external/` | Third-party resources, local packages, cached weights, and report tools |
 
 ### Rebuild the milestone
@@ -274,8 +273,7 @@ Inspect the rendered pages under `tmp/pdfs/milestone_2026-11-24/`, then run the 
 - **Rejected geometric combination:** reduce the direct slider intensities. The viewer retains the last accepted mesh and displays an error; coefficient rejection does not mean the language prediction was altered.
 - **Missing module:** use the environment containing the recorded dependencies. `smplx` is loaded from `external/python_packages/`; that directory is not a replacement for the full Python environment.
 
-Next research steps are genuine paraphrase review; collection and independent dual annotation of 150-200 Test-Human instructions; an audited reviewed-data release; final A/B/C evaluation and error analysis; optional separately annotated CelebA transfer experiments; and human assessment of the geometric proxies. Do not tune against the existing test results or replace missing human evidence with synthetic records. AI assistance and generated-data provenance are documented in the milestone and experiment reports.
-
+Next research steps are genuine paraphrase review; collection and independent dual annotation of 150-200 Test-Human instructions; an audited reviewed-data release; final A/B/C evaluation and error analysis; optional separately annotated CelebA transfer experiments; and human assessment of the geometric proxies. Do not tune against the existing test results or replace missing human evidence with synthetic records.
 ## References and project documentation
 
 - [T5: Raffel et al. (2020)](https://jmlr.org/papers/v21/20-074.html)
